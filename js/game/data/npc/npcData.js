@@ -15652,9 +15652,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>'
 ]
                 },
             ]
@@ -15667,9 +15667,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>'
 ]
                 },
             ]
@@ -15682,9 +15682,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>'
 ]  
                 },
             ]
@@ -24275,9 +24275,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Braile; font-size: 32px; line-height: 40px",
-    "font-family: Braile; font-size: 32px; line-height: 40px",
-    "font-family: Braile; font-size: 32px; line-height: 40px"
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>',
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>',
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>'
 ]  
                 },
             ]
@@ -24306,9 +24306,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Braile; font-size: 32px; line-height: 40px",
-    "font-family: Braile; font-size: 32px; line-height: 40px",
-    "font-family: Braile; font-size: 32px; line-height: 40px"
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>',
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>',
+    '<span style="font-family: Braile; font-size: 32px; line-height: 40px">???</span>'
 ]  
                 },
             ]
@@ -25785,9 +25785,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
-    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>',
+    '<span style="font-family: Unown; font-size: 36px; line-height: 36px">UNOWN</span>'
 ]  
                 },
             ]
