@@ -14723,7 +14723,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "On this route, that Pokémon is Aipom.",
                         "En esta ruta, ese Pokémon es Aipom.",
-                    "在这条路线上，那只宝可梦是Aipom。"
+                    "在这条路线上，那只宝可梦是长尾怪手。"
                     ],
                 },
                 {
@@ -15652,9 +15652,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;"
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
 ]
                 },
             ]
@@ -15667,9 +15667,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;"
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
 ]
                 },
             ]
@@ -15682,9 +15682,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;"
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
 ]  
                 },
             ]
@@ -21649,7 +21649,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "The following Pokémon are not allowed for challengers: Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys,",
                         "Los siguientes Pokémon no están permitidos para los aspirantes: Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys, ",
-                    "以下宝可梦不允许挑战者使用：Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys,"
+                    "以下宝可梦不允许挑战者使用：超梦, 洛奇亚, 凤王, 盖欧卡, 固拉多, 烈空坐, 代欧奇希斯,"
                     ]
                 },
                 {
@@ -25785,9 +25785,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;",
-    "font-family: Unown; font-size: 36px; line-height: 36px;"
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;",
+    "font-family: 未知图腾; font-size: 36px; line-height: 36px;"
 ]  
                 },
             ]
@@ -25828,7 +25828,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Missingno Egg!",
                         "¡Has obtenido un Huevo Missingno!",
-                    "你获得了Missingno的蛋！"
+                    "你获得了MissingNo.的蛋！"
                     ],
                     reward: {
                         item: item.consumable.missingnoEgg,
