@@ -1,0 +1,74 @@
+#dialogue-scene {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialogue-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    height: 165px;
+    background: var(--white);
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.dialogue-name {
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    width: 100%;
+    padding-left: 30px;
+    align-content: center;
+    color: var(--red);
+}
+
+.dialogue-text {
+    position: absolute;
+    top: 40px;
+    height: 90px;
+    left: 30px;
+    right: 30px;
+    line-height: 24px;
+}
+
+.dialogue-next {
+    position: absolute;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+
+    text-align: center;
+    line-height: 40px;
+    background: var(--red);
+    color: white;
+    cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.dialogue-choices {
+    position: absolute;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+}
+
+.dialogue-choice {
+    flex: 1 1 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    background: var(--red);
+    color: white;
+    cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.dialogue-next:hover, .dialogue-choice:hover {
+    filter: brightness(1.2);
+}

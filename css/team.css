@@ -1,0 +1,331 @@
+.menu-team-container {
+	position: relative;
+	width: 100%;
+	height: calc(100%/6);
+	outline: 1px solid black;
+	
+	background: #e9e9e9;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .1s;
+}
+
+.menu-team-container * {
+    cursor: inherit;
+}
+
+.menu-team-container:hover {
+	background: #bfbfbf;
+}
+
+.menu-team-sprite {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translate(0, -50%);
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	outline: 1px solid black;
+	border-radius: 2px;
+}
+
+.menu-team-name {
+	position: absolute;
+	bottom: 37px;
+	left: 80px;
+}
+
+.menu-team-level {
+	position: absolute;
+	bottom: 37px;
+	right: 10px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.menu-team-health {
+	position: absolute;
+	bottom: 12px;
+	right: 10px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.menu-team-health-bar-container {
+	position: absolute;
+	bottom: 12px;
+	left: 80px;
+	right: 120px;
+	height: 15px;
+	background-color: #111;
+	outline: 1px solid black;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.menu-team-health-bar-progress {
+	position: relative;
+	height: 100%;
+	background: var(--green);
+	border-right: 1px solid black;
+}
+
+/* POKEMON */
+
+.menu-team-pokemon-stat-container {
+	position: absolute;
+	top: 46px;
+	width: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--white);
+	gap: 3px;
+}
+
+.menu-team-pokemon-stat {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px 20px;
+	font-size: 14px;
+	border-radius: 0 5px 5px 0;
+}
+
+.menu-team-pokemon-stat:nth-child(2n) {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.menu-team-pokemon-stat-label {
+	width: 50%;
+	text-align: left;
+}
+
+.menu-team-pokemon-stat-value {
+	width: 25%;
+	text-align: right;
+}
+
+.menu-team-pokemon-info-container {
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	width: 240px;
+	height: 214px;
+	text-align: center;
+}
+
+.menu-team-pokemon-name {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.menu-team-pokemon-health-bar-container {
+	position: absolute;
+	top: 20px;
+	left: 10%;
+	width: 80%;
+	height: 12px;
+	position: absolute;
+	background-color: #111;
+	outline: 1px solid black;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.menu-team-pokemon-health-bar-progress {
+	position: relative;
+	height: 100%;
+	background: var(--green);
+}
+
+.menu-team-pokemon-sprite {
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	transform: translate(-50%);
+	height: 120px;
+	width: 120px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.menu-team-pokemon-type {
+	position: absolute;
+	top: 135px;
+	width: 100%;
+}
+
+.menu-team-pokemon-level {
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.menu-team-pokemon-exp-bar-container {
+	position: absolute;
+	top: 178px;
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	background-color: #111;
+	outline: 1px solid black;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.menu-team-pokemon-exp-bar-progress {
+	position: relative;
+	height: 100%;
+	background: var(--blue);
+}
+
+.menu-team-pokemon-level-button {
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+	height: 22px;
+	background: var(--red);
+	outline: 1px solid black;
+	line-height: 24px;
+	color: var(--white);
+	border-radius: 5px;
+	font-size: 12px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .1s;
+}
+
+.menu-team-pokemon-level-button:hover {
+	filter: brightness(1.2);
+}
+
+.menu-team-pokemon-level-button-disabled {
+	position: absolute;
+	bottom: 2px;
+	width: 100%;
+	height: 22px;
+	background: var(--red);
+	outline: 1px solid black;
+	line-height: 24px;
+	color: var(--white);
+	border-radius: 5px;
+	font-size: 12px;
+	filter: brightness(0.7);
+	pointer-events: none;
+}
+
+.menu-team-pokemon-moveset-container {
+	position: absolute;
+	bottom: 130px;
+	right: 20px;
+	left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu-team-pokemon-move {
+	position: relative;
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	outline: 1px solid black;
+	align-content: center;
+	padding-top: 4px;
+	font-size: 14px;
+	color: var(--white);
+	filter: brightness(0.85);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .1s;
+}
+
+.menu-team-pokemon-move:hover {
+	filter: brightness(1.1);
+}
+
+.menu-team-pokemon-move-disabled {
+	position: relative;
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	outline: 1px solid black;
+	align-content: center;
+	padding-top: 4px;
+	font-size: 14px;
+	opacity: 0.5;
+	pointer-events: none;
+	
+}
+
+.menu-team-pokemon-move-info  {
+	position: absolute;
+	width: 200px;
+	height: 32px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0 5px 5px 0;
+	outline: 1px solid black;
+	color: var(--white);
+	line-height: 34px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.menu-team-pokemon-move-info-power { bottom: 84px }
+
+.menu-team-pokemon-move-info-type { bottom: 47px }
+
+.menu-team-pokemon-move-info-category { bottom: 10px }
+
+.menu-team-pokemon-move-info-description-container {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	height: 106px;
+	left: 230px;
+	background: rgba(0, 0, 0, 0.6);
+	outline: 1px solid black;
+	line-height: 20px;
+	border-radius: 5px;
+	overflow-y: auto;
+}
+
+.menu-team-pokemon-move-info-description-container::-webkit-scrollbar { width: 12px; }
+.menu-team-pokemon-move-info-description-container::-webkit-scrollbar-track { 
+	background: #2a2b2b; 
+	outline: 1px solid black;
+	border-radius: 5px;
+}
+.menu-team-pokemon-move-info-description-container::-webkit-scrollbar-thumb { 
+    background: var(--red); 
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.menu-team-pokemon-move-info-description-text {
+	position: absolute;
+	padding: 12px 10px;
+	font-size: 10px;
+	color: var(--white);
+	line-height: 12px;
+}
+
+.menu-team-pokemon-next-pokemon, .menu-team-pokemon-prev-pokemon {
+	position: absolute;
+	font-size: 24px;
+	top: 45%;
+	color: var(--white);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .1s;
+}
+
+.menu-team-pokemon-next-pokemon { right: 20px }
+.menu-team-pokemon-prev-pokemon { left: 20px }
+
+.menu-team-pokemon-next-pokemon:hover, .menu-team-pokemon-prev-pokemon:hover {
+	filter: brightness(1.2);
+}

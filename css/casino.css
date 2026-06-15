@@ -1,0 +1,288 @@
+.casino-game-box-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 122px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+}
+
+.casino-game-box {
+	position: relative;
+	height: 100%;
+	width: calc(100%/2);
+
+	text-align: center;
+	padding-top: 20px;
+	color: var(--white);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	outline: 2px solid black;
+	box-shadow: inset 0 0 25px black;
+	transition: .2s;
+}
+
+.casino-game-box:hover {
+	filter: brightness(1.1);
+}
+
+.casino-bet-container {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-top: 2px solid black;
+}
+
+.casino-bet-scene {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.casino-bet-label {
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	color: var(--white);
+}
+
+.casino-bet-value {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	width: 200px;
+	color: var(--white);
+}
+
+.casino-bet-error {
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	font-size: 9px;
+	transform: translate(-50%);
+	text-align: center;
+ 	width: 350px;
+ 	padding: 3px;
+	color: var(--red);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.casino-bet-prev, .casino-bet-next {
+	position: absolute;
+	top: 48px;
+	font-size: 24px;
+	color: var(--red);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	z-index: 1;
+}
+
+.casino-bet-prev:hover, .casino-bet-next:hover {filter: brightness(1.2);}
+
+.casino-bet-prev { left: 180px; }
+.casino-bet-next { right: 180px; }
+
+.casino-game-scene {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url('../assets/images/background/blackjack.png');
+	background-size: cover;
+	z-index: 1;
+}
+
+/*BLACKJACK*/
+
+.blackjack-game-bet, .roulette-game-bet  {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 10px;
+	padding: 8px 10px 5px 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: var(--white);
+}
+
+.blackjack-game-draw-card, .blackjack-game-stand, .roulette-game-spin, .roulette-game-result {
+	position: absolute;
+	color: var(--white);
+	bottom: 10px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	padding: 5px;
+	transition: .1s;
+}
+
+.blackjack-game-stand, .roulette-game-result { left: 10px; }
+.blackjack-game-draw-card, .roulette-game-spin { right: 10px; }
+
+.blackjack-game-draw-card:hover, .blackjack-game-stand:hover, .roulette-game-spin:hover {
+	color: var(--yellow);
+}
+
+.blackjack-game-dealer-score {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 12px;
+	color: var(--red);
+}
+
+.blackjack-game-player-score {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	font-size: 12px;
+	color: var(--blue);
+}
+
+.blackjack-player-cards,
+.blackjack-dealer-cards {
+	position: absolute;
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.blackjack-dealer-cards {
+	top: 50px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.blackjack-player-cards {
+	bottom: 40px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.blackjack-card {
+	background-color: var(--white);
+    width: 60px;
+    height: 90px;
+    margin: 4px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    outline: 1px solid black;
+    animation: dealCard 0.3s ease-out;
+}
+
+.blackjack-card-animating {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.8);
+    transition: none;
+    z-index: 10;
+}
+
+.blackjack-card.animate-in {
+    animation: drawCardAnim 0.4s ease-out forwards;
+}
+
+@keyframes drawCardAnim {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ROULETTE */
+.roulette-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.roulette {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: relative;
+	transform-origin: center center;
+	transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
+	outline: 2px solid black;
+}
+
+.roulette-segment {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 20px;
+	transform-origin: 0 0; /* cambia de 0 50% a 0 0 */
+	transform: rotate(calc(var(--i) * 15deg + 7.5deg)) translate(95px, -10px); /* mueve un poco hacia arriba */
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	pointer-events: none;
+	user-select: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.roulette-indicator {
+    position: absolute;
+    top: 50%;
+   	right: 140px;
+    transform: translateX(0, -50%);
+    width: 0;
+    height: 0;
+    border-right: 15px solid #fff; /* Puedes cambiar el color aquí */
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    z-index: 10;
+    filter: drop-shadow(0 0 4px #000);
+    pointer-events: none;
+}
+
+.roulette-game-last-result-label {
+	position: absolute;
+	top: 22px;
+	left: 20px;
+	font-size: 8px;
+	color: var(--white);
+}
+
+.roulette-game-last-result-container {
+	position: absolute;
+	top: 35px;
+	left: 15px;
+	width: 210px;
+	height: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.roulette-game-last-result {
+	position: relative;
+	width: 12.5%;
+	height: 100%;
+	color: var(--white);
+	text-align: center;
+	line-height: 22px;
+	font-size: 8px;
+	outline: 1px solid black;
+}
+
+.popup-casino-prompt-gains {
+	position: absolute;
+	top: 44px;
+	left: 15px;
+	right: 15px;
+	color: #222425;
+	font-size: 12px;
+	line-height: 22px;
+	text-align: center;
+}

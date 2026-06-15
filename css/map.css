@@ -1,0 +1,63 @@
+.menu-map {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	background-size: cover;
+}
+
+.menu-map-selected-ubication {
+	position: absolute;
+	bottom: 7px;
+	left: 10px;
+	color: var(--white);
+}
+
+.menu-map-title {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: var(--white);
+}
+
+.menu-map-ubication {
+	position: absolute;
+	display: none;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.menu-map-arrow-kanto, .menu-map-arrow-johto {
+	position: absolute;
+	color: var(--white);
+	font-size: 24px;
+	bottom: 50px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.menu-map-arrow-kanto:hover, .menu-map-arrow-johto:hover {
+	filter: brightness(1.2);
+}
+
+.menu-map-arrow-kanto {
+	right: 10px;
+}
+
+.menu-map-arrow-johto {
+	left: 10px;
+}
+
+@keyframes flashYellow {
+	0%, 100% {
+	    background-color: rgba(255, 255, 100, 0.2); 
+	}
+	50% {
+	    background-color: rgba(255, 255, 100, 0.5); 
+	}
+}
+
+.flash-yellow {
+  	animation: flashYellow 1.5s infinite;
+}
+
