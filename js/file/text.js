@@ -50,6 +50,8 @@ export const text = {
 				1: ['You sure?', '¿Seguro?', '确定吗？'],
 				2: ['But are you sure?', '¿Pero seguro?', '真的确定吗？'],
 				3: ['Click and data will be deleted', 'Si pulsas se borrarán tus datos', '点击后数据将被删除'],
+				4: ['Export save', 'Exportar datos', '导出存档'],
+				5: ['Import save', 'Importar datos', '导入存档'],
 			}
 		},
 		tutorial: {

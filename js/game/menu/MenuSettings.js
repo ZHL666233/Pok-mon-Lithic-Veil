@@ -4,7 +4,7 @@ import { Selector } from '../../utils/Selector.js';
 import { text } from '../../file/text.js';
 import { playSound, setVolume } from '../../file/audio.js';
 
-const SECTION = ['game', 'audio'];
+const SECTION = ['game', 'audio', 'data'];
 const OPTION = {
  	audio: Array.from({ length: 21 }, (_, i) => (i * 5).toString()),
     captureWindow: [['Show', 'Skip', '显示'], ['Mostrar', 'Saltar', '显示'], ['显示', '跳过']],
@@ -31,7 +31,8 @@ export class MenuSettings extends MenuComponent {
 		})
 
 		this.renderAudio();
-         this.renderGame();
+        this.renderGame();
+        this.renderData();
 	}
 
 	getConfig() {
@@ -137,6 +138,52 @@ export class MenuSettings extends MenuComponent {
             (indx) => updateAudioSetting('effects', indx)
         );
   	}
+
+	renderData = () => {
+		const lang = this.getConfig().language.text;
+		this.section['data'].header.innerText = text.menu.settings.section['data'][lang];
+
+		const buttonContainer = new Element(this.section['data'], { className: 'menu-settings-data-buttons' }).element;
+
+		this.dataExportBtn = new Element(buttonContainer, { className: 'window-section-button', text: text.menu.settings.data[4][lang].toUpperCase() }).element;
+		this.dataExportBtn.addEventListener('click', () => {
+			playSound('option', 'ui');
+			const data = window.localStorage.getItem('data');
+			if (!data) return;
+			const blob = new Blob([data], { type: 'application/json' });
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = 'pokemon-lithic-veil-save.json';
+			a.click();
+			URL.revokeObjectURL(url);
+		});
+
+		this.dataImportBtn = new Element(buttonContainer, { className: 'window-section-button', text: text.menu.settings.data[5][lang].toUpperCase() }).element;
+		this.dataImportBtn.addEventListener('click', () => {
+			playSound('option', 'ui');
+			const input = document.createElement('input');
+			input.type = 'file';
+			input.accept = '.json';
+			input.onchange = (e) => {
+				const file = e.target.files[0];
+				if (!file) return;
+				const reader = new FileReader();
+				reader.onload = (ev) => {
+					try {
+						const data = JSON.parse(ev.target.result);
+						if (!data.config || !data.player) throw new Error('Invalid save');
+						window.localStorage.setItem('data', JSON.stringify(data));
+						location.reload();
+					} catch (err) {
+						playSound('close', 'ui');
+					}
+				};
+				reader.readAsText(file);
+			};
+			input.click();
+		});
+	}
 
 	open() {
 		super.open(); 
