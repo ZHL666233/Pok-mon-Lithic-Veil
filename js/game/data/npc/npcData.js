@@ -18867,7 +18867,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
     "The other day, a Psyduck stole my lunch and fled riding a Doduo... I still haven't recovered.",
     "El otro día, un Psyduck robó mi almuerzo y huyó montado en un Doduo... todavía no me recupero.",
-    "The other day, a Psyduck stole my lunch and fled riding a Doduo... I still haven't recovered."
+    "前几天，一只可达鸭偷了我的午饭，骑着一只嘟嘟逃跑了……我到现在还没缓过来。"
 ]
                 },
                 {
