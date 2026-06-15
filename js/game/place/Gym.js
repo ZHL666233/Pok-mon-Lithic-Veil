@@ -181,20 +181,23 @@ export class Gym extends Window {
         const leaderName = this.leader.name[lang] || this.leader.name[0];
         this.promptText = [
             `Select ${this.pokemonNumber} Pokémon to face ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
-            `Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`
+            `Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
+            `选择 ${this.pokemonNumber} 只宝可梦挑战 ${leaderName}。[${this.playerTeam.length}/${this.pokemonNumber}]`
         ];
 
         if (this.leader.region == 'league') {
             this.promptText = [
                 `Select ${this.pokemonNumber} Pokémon to face ${leaderName}, ${this.leader.hint[lang]}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
-                `Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}, ${this.leader.hint[lang]}. [${this.playerTeam.length}/${this.pokemonNumber}]`
+                `Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}, ${this.leader.hint[lang]}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
+                `选择 ${this.pokemonNumber} 只宝可梦挑战 ${leaderName}，${this.leader.hint[lang]}。[${this.playerTeam.length}/${this.pokemonNumber}]`
             ]
         } 
 
         if (this.leader.region == 'battleCenter') {
             this.promptText = [
                 `Showdown #${this.streak+1}\n Select ${this.pokemonNumber} Pokémon to face ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
-                `Enfrentamiento #${this.streak+1}\n Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`
+                `Enfrentamiento #${this.streak+1}\n Selecciona ${this.pokemonNumber} Pokémon para enfrentarte a ${leaderName}. [${this.playerTeam.length}/${this.pokemonNumber}]`,
+                `第 ${this.streak+1} 场对决\n选择 ${this.pokemonNumber} 只宝可梦挑战 ${leaderName}。[${this.playerTeam.length}/${this.pokemonNumber}]`
             ]
         } 
         
