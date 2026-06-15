@@ -28,3 +28,6 @@ _*.txt
 check_*.js
 fix_*.js
 *_report.txt
+
+# Reasonix
+.reasonix/
