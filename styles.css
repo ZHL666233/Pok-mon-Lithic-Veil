@@ -181,11 +181,16 @@ input {
 }
 
 /* Mobile-friendly */
-@media (max-width: 768px) {
+@media (max-width: 768px), (pointer: coarse) {
     * {
         cursor: auto !important;
     }
     body {
         -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+    }
+    .menu-button,
+    .menu-button:hover {
+        cursor: pointer !important;
     }
 }
