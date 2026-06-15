@@ -30,6 +30,9 @@ import { playSound } from '../file/audio.js';
 
 export class Main {
 	constructor(data) {
+		// 暴露到全局控制台方便调试
+		window.main = this;
+		
 		// SCENES
 		this.scene = new Element(document.getElementById("screen"), { id: 'game-scene' }).element;
 		this.eventScene = new Element(this.scene, { id: 'event-scene' }).element;
