@@ -68,7 +68,7 @@ export class MenuTeamPokemon extends MenuPop {
 	update() {
 		const lang = this.component.menu.main.lang;
 
-		this.name.innerText = this.pokemon.name[lang];
+		this.name.innerText = this.pokemon.name;
 		if (this.pokemon.shiny) {
 	        this.name.innerHTML += '<span class="stroke" style="color: var(--yellow); font-size: 16px; padding-left: 4px;" >★</span>'
 	    }
