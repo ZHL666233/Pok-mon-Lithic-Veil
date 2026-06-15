@@ -1,0 +1,457 @@
+.route-travel-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	height: 34px;
+	color: var(--white);
+	border: 2px solid var(--white);
+	outline: 1px solid black;
+	font-size: 11px;
+	box-shadow: inset 1px 1px 1px black, inset -1px -1px 1px black;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	text-align: center;
+	line-height: 36px;
+	transition: .2s;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.route-travel-button:hover{
+	filter: brightness(1.2);
+}
+
+.route-potion-button, .route-capture-button, .route-exp-share-button, .route-radar-button, .route-autobattle-button {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border: 2px solid var(--white);
+	outline: 1px solid black;
+	box-shadow: inset 1px 1px 1px black, inset -1px -1px 1px black;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.route-potion-button *, .route-capture-button *, .route-exp-share-button *, .route-radar-button *, .route-autobattle-button * {
+    cursor: inherit;
+}
+
+.route-potion-button { bottom: 93px; left: 10px; }
+.route-capture-button { bottom: 143px; left: 10px; }
+.route-autobattle-button { bottom: 193px; left: 10px; }
+.route-exp-share-button { 
+	display: none;
+	bottom: 243px; 
+	left: 10px;
+}
+
+.route-radar-button { 
+	display: none;
+	bottom: 93px; 
+	right: 10px;
+}
+
+.route-potion-button:hover, .route-capture-button:hover, .route-exp-share-button:hover, .route-radar-button:hover, .route-autobattle-button:hover {
+	filter: brightness(1.2);
+}
+
+.route-potion-amount {
+	position: absolute;
+	bottom: 5px;
+	left: 1px;
+	width: 100%;
+	text-align: center;
+	color: var(--white);
+	font-size: 10px;
+}
+
+.route-capture-status, .route-exp-share-status, .route-radar-status, .route-autobattle-status {
+	position: absolute;
+	bottom: 5px;
+	left: 1px;
+	width: 100%;
+	text-align: center;
+	color: var(--green);
+	font-size: 8px;
+}
+
+.route-exp-share-status, .route-radar-status, .route-autobattle-status { color: #e63f1e; }
+
+.route-radar-container {
+	display: none;
+	position: absolute;
+	height: 200px;
+	width: 40px;
+	bottom: 143px;
+	right: 10px;
+	border: 2px solid var(--white);
+	outline: 1px solid black;
+	box-shadow: inset 1px 1px 1px black, inset -1px -1px 1px black;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+
+	padding: 10px 0;
+	gap: 15px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	align-content: flex-start;
+
+	overflow-y: scroll; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.route-radar-pokemon {
+	position: relative;
+	width: 24px;
+	height: 24px;
+}
+
+.route-radar-pokemon-sprite {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+}
+
+.route-player-pokemon {
+	position: absolute;
+	top: 192px;
+	left: 240px;
+	width: 32px;
+	height: 32px;
+	transform: scaleX(-1);
+}
+
+.route-enemy-pokemon {
+	position: absolute;
+	top: 192px;
+	right: 240px;
+	width: 32px;
+	height: 32px;
+}
+
+.route-pokemon-health-bar-container {
+	position: absolute;
+	bottom: 0px;
+	width: 200%;
+	height: 4px;
+	background-color: #111;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.route-pokemon-health-bar-progress {
+	position: relative;
+	height: 100%;
+	background-color: var(--green);
+	transition: width 0.3s ease;
+}
+
+.route-pokemon-charge-bar-container {
+	position: absolute;
+	bottom: -5px;
+	width: 200%;
+	height: 4px;
+	background-color: #111;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.route-pokemon-charge-bar-progress {
+	position: relative;
+	height: 100%;
+	background-color: var(--orange);
+	transition: width 0.1s ease;
+}
+
+/**/
+.route-team-pokemon-container {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 75px;
+	background: rgba(0, 0, 0, 0.75);
+	padding-top: 2px;
+	border-top: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	gap: 30px;
+}
+
+.route-team-pokemon {
+	position: relative;
+	width: 65px;
+	height: 55px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.route-team-pokemon * {
+	cursor: inherit;
+}
+
+.route-team-pokemon-sprite {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+    transition: .2s;
+}
+
+.route-team-pokemon:hover .route-team-pokemon-sprite {
+	filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8));
+}
+
+.route-team-pokemon-name,
+.route-team-pokemon-level {
+    font-size: 7px;
+    color: white;
+    text-align: center;
+}
+
+.route-team-pokemon-health-bar-container {
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	height: 5px;
+	background-color: #111;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.route-team-pokemon-health-bar-progress {
+	position: relative;
+	height: 100%;
+	transition: width 0.3s ease;
+}
+
+.route-team-pokemon-exp-bar-container {
+	position: absolute;
+	bottom: -2px;
+	width: 100%;
+	height: 5px;
+	background-color: #111;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.route-team-pokemon-exp-bar-progress {
+	position: relative;
+	height: 100%;
+	transition: width 0.3s ease;
+}
+
+.route-team-pokemon-sub-text {
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+	height: 5px;
+	font-size: 7px;
+}
+
+.route-moveset-container {
+	position: absolute;
+	bottom: 100px;
+	right: 73px;
+	left: 73px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+}
+
+.route-move, .route-move-selected {
+	position: relative;
+	width: 200px;
+	height: 27px;
+	text-align: center;
+	border-radius: 5px;
+	outline: 1px solid black;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	align-content: center;
+	padding-top: 2px;
+	font-size: 12px;
+	color: var(--white);
+	transition: filter 0.3s ease;
+}
+
+.route-move-selected {
+	filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8))
+            drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+}
+
+.route-move {
+	filter: brightness(0.8);
+}
+
+.route-move:hover {
+	filter: brightness(1);
+}
+
+.route-move-combo-container {
+	position: absolute;
+	width: 120px;
+	height: 20px;
+	top: -26px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	gap: 6px;
+}
+
+.route-move-combo-ball {
+	position: relative;
+	width: 14px;
+	height: 14px;
+	outline: 1px solid black;
+	border-radius: 50%;
+	background-color: #333;
+	box-shadow: 0 0 4px black;
+}
+
+.route-battle-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 5px;
+}
+
+.route-battle-info-message {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 8px;
+    text-align: center;
+    animation: pop-in 0.2s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Animación de entrada */
+@keyframes pop-in {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes battle-bob {
+    0% { transform: translateX(-10px); }
+    50% { transform: translateX(-55px); }
+    100% { transform: translateX(-10px); }
+}
+
+@keyframes battle-bob-enemy {
+    0% { transform: translateX(-10px); }
+    50% { transform: translateX(-55px); }
+    100% { transform: translateX(-10px); }
+}
+
+.route-pokemon-bob {
+    animation: battle-bob 1.2s infinite ease-in-out;
+}
+
+.route-pokemon-bob-enemy {
+    animation: battle-bob-enemy 1.2s infinite ease-in-out;
+}
+
+/**/
+.popup-route-capture-prompt {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	color: #1b1b19;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.popup-route-capture-prompt-bottom {
+	position: absolute;
+	bottom: 75px;
+	left: 20px;
+	right: 20px;
+	color: #222425;
+	font-size: 9px;
+
+	text-align: center;
+}
+
+.popup-route-capture-pokemon-container {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%, -50%);
+}
+
+.popup-route-capture-pokemon-name, .popup-route-capture-pokemon-level  {
+	position: absolute;
+	width: 100%;
+	font-size: 10px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.popup-route-capture-pokemon-name {
+	bottom: 15px;
+}
+.popup-route-capture-pokemon-level {
+	bottom: 5px;
+}
+
+.popup-route-capture-pokemon-sprite {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.popup-route-capture-button {
+	position: absolute;
+	bottom: 20px;
+	width: 140px;
+	height: 34px;
+
+	text-align: center;
+	line-height: 36px;
+	font-size: 12px;
+
+  	border: 2px solid #000000;     
+  	box-shadow: 4px 4px 0 #222222; 
+  	text-transform: uppercase;
+  	color: var(--white);
+  	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.popup-route-capture-button-cancel {
+	left: 35px;
+	background-color: #C03B3B;  
+}
+
+.popup-route-capture-button-accept {
+	right: 35px;
+	background-color: #6ea82b;  
+}
+
+.popup-route-capture-button:hover {
+    filter: brightness(1.1); 
+}

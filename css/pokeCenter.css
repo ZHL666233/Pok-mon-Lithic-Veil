@@ -1,0 +1,429 @@
+.poke-center-button-container {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	width: 240px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 13px;
+}
+
+.poke-center-button {
+	position: relative;
+	width: 100%;
+	height: 35px;
+	right: -2px;
+	color: var(--white);
+	background: #C03B3B;
+	
+	font-size: 14px;
+	padding-left: 10px;
+	line-height: 38px;
+	border: 2px solid var(--white);
+	outline: 1px solid #222222;
+  	box-shadow: -4px 4px 0 #222222, 4px 4px 0 #222222, inset 0px -1px 0 #222222, inset 1px 1px 0 #222222; 
+
+  	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+  	transition: .2s;
+}
+
+.poke-center-button:hover {
+	filter: brightness(1.2);
+}
+
+.poke-center-description-container {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background: var(--white);
+	border-top: 1px solid black;
+}
+
+.poke-center-description {
+	position: absolute;
+	inset: 15px;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+/* STORAGE */
+
+.poke-center-storage-scene {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #eea96d;
+}
+
+.poke-center-storage-info-container {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 31px;
+	width: 30%;
+	border-left: 1px solid black;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+}
+
+.poke-center-storage-info-name {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	color: var(--white);
+	font-size: 15px;
+}
+
+.poke-center-storage-info-image {
+	position: absolute;
+	top: 25px;
+	left: 50%;
+	transform: translate(-50%);
+	height: 120px;
+	width: 120px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.poke-center-storage-info-type {
+	position: absolute;
+	top: 135px;
+	width: 100%;
+	text-align: center;
+}
+
+.poke-center-storage-info-level {
+	position: absolute;
+	top: 165px;
+	width: 100%;
+	text-align: center;
+	color: var(--white);
+	font-size: 12px;
+}
+
+.poke-center-storage-release-button {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	height: 100px;
+	width: 18px;
+	background: var(--red);
+	color: var(--white);
+	border-radius: 0 5px 5px 0;
+	outline: 1px solid black;
+	writing-mode: vertical-rl;
+	text-align: center;
+	line-height: 20px;
+	font-size: 10px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.poke-center-storage-release-button:hover {
+	filter: brightness(1.2);
+}
+
+.poke-center-storage-info-stat-container {
+	position: absolute;
+	top: 190px;
+	left: 8px;
+	right: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--white);
+	gap: 6px;
+}
+
+.poke-center-storage-info-stat {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 9px;
+}
+
+.poke-center-storage-info-stat-label {
+	width: 50%;
+	text-align: left;
+}
+
+.poke-center-storage-info-stat-value {
+	width: 25%;
+	text-align: right;
+}
+
+.poke-center-storage-info-moveset-container {
+	position: absolute;
+	top: 297px;
+	left: 10px;
+	right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.poke-center-storage-info-move {
+	position: relative;
+	width: 75px;
+	height: 17px;
+	text-align: center;
+	border-radius: 2px;
+	outline: 1px solid black;
+	align-content: center;
+	padding-top: 2px;
+	font-size: 7px;
+	color: var(--white);
+}
+
+.poke-center-storage-info-move-disabled {
+	position: relative;
+	width: 75px;
+	height: 15px;
+	text-align: center;
+	border-radius: 2px;
+	outline: 1px solid black;
+	align-content: center;
+	padding-top: 4px;
+	font-size: 7px;
+	color: var(--white);
+	opacity: 0.5;
+}
+
+.poke-center-storage-info-stat-button-swap {
+	position: absolute;
+	top: 320px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	color: var(--white);
+	outline: 1px solid black;
+	padding-top: 6px;
+	text-align: center;
+	align-content: center;
+	line-height: 22px;
+	font-size: 13px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.poke-center-storage-info-stat-button-swap:hover {
+	filter: brightness(1.2);
+}
+
+.poke-center-storage-filter-container {
+	position: absolute;
+	top: 68px;
+	height: 17px;
+	width: 70%;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	background: rgba(0, 0, 0, 0.2);
+	background-color: var(--white);
+}
+
+.poke-center-storage-filter-button {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	background-color: var(--blue);
+	color: var(--white);
+	font-size: 8px;
+	text-align: center;
+	line-height: 20px;
+	outline: 1px solid black;
+	background-image: url('../assets/images/textures/texture8.png');
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.poke-center-storage-filter-button:hover {
+	filter: brightness(1.2);
+}
+
+.poke-center-storage-team-container {
+	position: absolute;
+	height: 68px;
+
+	width: 70%;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	background: rgba(0, 0, 0, 0.2);
+	background-image: url('../assets/images/textures/texture8.png');
+	background-color: var(--white);
+}
+
+.poke-center-storage-team-slot {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	outline: 1px solid black;
+	border-radius: 2px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.poke-center-storage-team-slot:hover {
+	filter: brightness(1.2) drop-shadow(0 0 2px var(--white));
+}
+
+.poke-center-storage-team-slot-disabled {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	outline: 1px solid black;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter: brightness(0.7);
+	pointer-events: none;
+}
+
+.poke-center-storage-box-container {
+	position: absolute;
+	left: 0px;
+	top: 84px;
+	bottom: 28px;
+	width: 70%;
+	background-image: url('../assets/images/background/storage.png');
+	background-position: center;
+}
+
+.poke-center-storage-box-case {
+	position: absolute;
+	inset: 9px 18px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	gap: 8px; 
+	overflow-y: auto;
+}
+
+.poke-center-storage-box-case::-webkit-scrollbar { 
+	width: 24px; 
+}
+.poke-center-storage-box-case::-webkit-scrollbar-track { background: transparent; }
+.poke-center-storage-box-case::-webkit-scrollbar-thumb { 
+    background: #f2e8b5; 
+    border-radius: 2px;
+    outline: 1px solid black;
+}
+
+.poke-center-storage-box-slot {
+	position: relative;
+	width: 22px;
+	height: 22px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.poke-center-storage-box-slot:hover {
+	filter: brightness(1.2) drop-shadow(0 0 2px black);
+}
+
+.poke-center-storage-return {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	font-size: 14px;
+	background: #C03B3B;
+	color: var(--white);
+	outline: 1px solid black;
+	line-height: 35px;
+	text-align: center;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.poke-center-storage-return:hover {
+	filter: brightness(1.2);
+}
+
+/* UNION ROOM */
+
+.poke-center-union-room-scene {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #e9e9e9;
+}
+
+.poke-center-union-room-option-container {
+	position: absolute;
+	top: 0px;
+	bottom: 31px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.poke-center-union-room-option {
+	position: relative;
+	height: 100%;
+	width: calc(100%/3);
+
+	text-align: center;
+	padding-top: 20px;
+	color: var(--white);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	outline: 2px solid black;
+	box-shadow: inset 0 0 25px black;
+	background-size: cover;
+	transition: .2s;
+}
+
+.poke-center-union-room-option:hover {
+	filter: brightness(1.1);
+}
+
+.poke-center-union-room-return {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	font-size: 14px;
+	background: #C03B3B;
+	color: var(--white);
+	outline: 1px solid black;
+	line-height: 35px;
+	text-align: center;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.poke-center-union-room-return:hover {
+	filter: brightness(1.2);
+}
+
+.ticket-ui {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 160px;
+	height: 24px;
+	font-size: 13px;
+	line-height: 30px;
+	color: var(--white);
+	text-align: right;
+	border-top-left-radius: 5px;
+	padding-right: 15px;
+	background-color: #C03B3B;
+	outline: 2px solid black;
+
+	z-index: 100;
+}

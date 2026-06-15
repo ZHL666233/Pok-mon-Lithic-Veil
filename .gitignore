@@ -1,0 +1,30 @@
+# VS Code / IDE
+.vscode/
+*.code-workspace
+
+# Debug / Session logs
+debug-logs/
+chat-session-resources/
+chat-editing-snapshot-text-model/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Temp / Cache files
+*.tmp
+*.log
+
+# Debug / Fix scripts (not part of the game)
+_*.json
+_*.js
+_*.txt
+check_*.js
+fix_*.js
+*_report.txt

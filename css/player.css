@@ -1,0 +1,118 @@
+.menu-player-bg-image {
+	position: absolute;
+	bottom: 50px;
+	right: -30px;
+	width: 200px;
+	height: 200px;
+	background-image: url("../assets/images/misc/pokeball.png");
+	scale: 2;
+	transform: rotate(-25deg) ;
+	opacity: 0.1;
+}
+
+.menu-player-name {
+	position: absolute;
+	top: 20px;
+	height: 40px;
+	width: 100%;
+	background: var(--blue);
+	outline: 2px solid black;
+	color: white;
+	padding-left: 20px;
+	line-height: 44px;
+	font-size: 20px;
+}
+
+.menu-player-sprite {
+	position: absolute;
+	bottom: 110px;
+	right: -20px;
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.menu-player-stat-container {
+	position: absolute;
+	top: 72px;
+	left: 20px;
+	width: 290px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2px;
+	font-size: 14px;
+}
+
+.menu-player-stat {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 20px;
+}
+
+.menu-player-stat-label {
+	width: 50%;
+	text-align: left;
+}
+
+.menu-player-stat-value {
+	width: 50%;
+	text-align: right;
+}
+
+.menu-player-badge-container {
+	position: absolute;
+	left: 20px;
+	top: 210px;
+	height: 65px;
+	width: 290px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	gap: 5px;
+}
+
+.menu-player-badge {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: brightness(0);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+}
+
+.menu-player-hof-label {
+	position: absolute;
+	top: 285px;
+	left: 20px;
+	font-size: 14px;
+}
+
+.menu-player-hof-container {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	gap: 7px;
+}
+
+.menu-player-hof {
+	position: relative;
+	width: 70px;
+	height: 40px;
+	outline: 1px solid black;
+	background-color: #bfbfbe;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+}

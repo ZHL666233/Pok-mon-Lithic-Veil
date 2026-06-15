@@ -1,0 +1,95 @@
+.menu-achievements-achievement-total-container {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 90px;
+	border-bottom: 2px solid black;	
+}
+
+.menu-achievements-achievement-total-label {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
+.menu-achievements-achievement-total-progress {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	text-align: right;
+}
+
+.menu-achievements-achievement-total-bar-container {
+	position: absolute;
+	top: 45px;
+	left: 20px;
+	right: 20px;
+	height: 20px;
+	outline: 2px solid black;
+	background-color: var(--white);
+}
+
+.menu-achievements-achievement-total-bar-progress {
+	position: relative;
+	height: 100%;
+	width: 1%;
+	background-color: var(--blue);
+	outline: 2px solid black;
+}
+
+.menu-achievements-achievements-container {
+	position: absolute;
+	top: 92px;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	overflow-y: auto;
+}
+
+.menu-achievements-achievement-box {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	background-color: #e8e9e9;
+	outline: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-achievements-achievement-box:nth-child(2n) {
+	background-color: #d6d6d6;
+}
+
+.menu-achievements-achievement-description {
+	font-size: 8px;
+	padding-top: 8px;
+	text-indent: 10px;
+	width: 79%;
+}
+
+.menu-achievements-achievement-progress {
+	font-size: 8px;
+	padding-top: 8px;
+	text-align: right;
+	width: 19%;
+}
+
+.menu-achievements-achievement-completed {
+	font-size: 12px;
+	padding-top: 2px;
+	text-align: right;
+	width: 18%;
+}
+
+.menu-achievements-achievements-container::-webkit-scrollbar { width: 16px; }
+.menu-achievements-achievements-container::-webkit-scrollbar-track { 
+	background: #2a2b2b; 
+	outline: 1px solid black;
+}
+.menu-achievements-achievements-container::-webkit-scrollbar-thumb { 
+    background: var(--red); 
+    outline: 1px solid black;
+    border-radius: 0;
+}
+

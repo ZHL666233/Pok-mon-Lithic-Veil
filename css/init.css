@@ -1,0 +1,189 @@
+.init-scene {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: var(--white);
+	background-image: url('../assets/images/textures/texture8.png');
+}
+
+.init-title, .menu-title {
+	position: absolute;
+	top: 80px;
+	right: 120px;
+	width: 280px;
+	color: var(--red);
+	font-size: 40px;
+	text-align: right;
+}
+
+.init-prompt {
+	position: absolute;
+	bottom: 80px;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	animation: init-prompt-flash 2.5s linear infinite;
+}
+
+@keyframes init-prompt-flash { 50% { filter: brightness(0.6); } }
+
+/* MENU */
+.menu-scene {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: var(--white);
+	background-image: url('../assets/images/textures/texture8.png');
+}
+
+.menu-button-container {
+	position: absolute;
+	bottom: 40px;
+	left: 60px;
+	width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.menu-button {
+	position: relative;
+	width: 100%;
+	color: #1b1b19;
+	font-size: 18px;
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.menu-button:hover {
+	padding-left: 20px;
+	color: var(--red);
+}
+
+.menu-version {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	font-size: 10px;
+	color: #1b1b19;
+}
+
+/* NEW GAME */
+.new-game-sprite-container {
+	width: 100%;
+	height: 232px;
+}
+
+.new-game-sprite {
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.new-game-sprite-trainer {
+	bottom: 60px;
+	right: 0px;
+	height: 200px;
+	width: 200px;
+}
+
+.new-game-sprite-pokemon {
+	bottom: 40px;
+	right: 80px;
+	height: 120px;
+	width: 160px;
+}
+
+.loading-text {
+  	position: absolute;
+  	width: 100%;
+	top: 70%;
+	transform: translate(0, -50%);
+	text-align: center;
+  	font-size: 12px;
+  	color: #222425;
+  	pointer-events: none;
+}
+
+.loading-bar-bg {
+	position: absolute;
+	left: 50%;
+	top: 75%;
+	transform: translate(-50%, -50%);
+  	width: 200px;
+  	height: 20px;
+  	background-color: #1b1b19;
+  	outline: 2px solid black;
+  	overflow: hidden;
+  	pointer-events: none;
+}
+
+.loading-bar {
+  	height: 100%;
+  	width: 0%;
+  	background-color: var(--red);
+  	border-right: 1px solid black;
+  	transition: width 0.3s ease;
+  	pointer-events: none;
+}
+
+/*tutorial*/
+
+.tutorial-name {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	color: var(--white);
+	font-size: 24px;
+	text-align: center;
+}
+
+.tutorial-image {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height: 220px;
+}
+
+.tutorial-description {
+	position: absolute;
+	top: 82%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	height: 80px;
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--white);
+	text-align: center;
+	align-content: center;
+}
+
+.tutorial-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 28px;
+	color: var(--white);
+	cursor: url('../assets/images/misc/cursor-pointer.png') 0 0, pointer;
+	transition: .2s;
+}
+
+.tutorial-arrow-left {
+	left: 15px;
+}
+
+.tutorial-arrow-right {
+	right: 15px;
+}
+
+.tutorial-index {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	text-align: right;
+	color: var(--white);
+}
