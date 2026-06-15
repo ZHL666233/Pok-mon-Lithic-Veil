@@ -179,3 +179,13 @@ input {
         transform: translateY(-100%);
     }
 }
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+    * {
+        cursor: auto !important;
+    }
+    body {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
