@@ -154,7 +154,9 @@ export class MenuSettings extends MenuComponent {
 			const url = URL.createObjectURL(blob);
 			const a = document.createElement('a');
 			a.href = url;
-			const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+			const now = new Date();
+			const pad = n => String(n).padStart(2, '0');
+			const ts = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}_${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}`;
 			a.download = `pokemon-lithic-veil-save-${ts}.json`;
 			a.click();
 			URL.revokeObjectURL(url);
