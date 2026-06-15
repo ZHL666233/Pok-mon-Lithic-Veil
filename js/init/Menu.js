@@ -116,7 +116,7 @@ export class Menu {
 	    
 	    setTimeout(() => {
 	        document.getElementById("screen").removeChild(overlay);
-	        new Main(this.data);
+	        window.main = new Main(this.data);
 	    }, 1000); 
 
 	}

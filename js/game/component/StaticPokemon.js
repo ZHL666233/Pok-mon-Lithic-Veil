@@ -103,7 +103,7 @@ export class StaticPokemon extends Window {
     }
  
     update() {
-        this.title = this.data.title[this.main.lang].toUpperCase();
+        this.title = (this.data.title[this.main.lang] || this.data.title[0]).toUpperCase();
         this.name.innerText = this.title;
         this.container.style.backgroundImage = `url("${this.data.background}")`;
 

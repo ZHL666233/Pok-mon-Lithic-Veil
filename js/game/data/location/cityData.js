@@ -1206,7 +1206,7 @@ export const city = {
 		song: "ecruteakCity",
 		worldEvent: {
 			occultistsCabin: {
-				name: ["Occultist's Cabin", 'Cabaña del Ocultista'],
+				name: ["Occultist's Cabin", 'Cabaña del Ocultista', '邪教徒小屋'],
 				position: { x: 17, y: 4},
 				size: { w: 5, h: 4 },
 				event: {
@@ -1767,7 +1767,7 @@ export const city = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 23, y: 5 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -4095,7 +4095,7 @@ export const city = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 19, y: 14 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -4621,7 +4621,7 @@ export const city = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 23, y: 4 },
 				size: { w: 1, h: 1 },
 				event: {

@@ -1812,7 +1812,7 @@ export const route = {
 				size: { w: 3, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle1.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 11, maxLevel: 12, chance: 25 }, 
@@ -1859,7 +1859,7 @@ export const route = {
 				size: { w: 3, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle1.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 11, maxLevel: 12, chance: 25 }, 
@@ -1927,7 +1927,7 @@ export const route = {
 				size: { w: 2, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle1.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 11, maxLevel: 12, chance: 25 }, 
@@ -1949,7 +1949,7 @@ export const route = {
 				size: { w: 3, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle1.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 12, maxLevel: 15, chance: 20 }, 
@@ -1996,7 +1996,7 @@ export const route = {
 				size: { w: 3, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 12, maxLevel: 15, chance: 20 }, 
@@ -2018,7 +2018,7 @@ export const route = {
 				size: { w: 2, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 12, maxLevel: 15, chance: 30 }, 
@@ -2035,7 +2035,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 22, y: 3 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -2075,7 +2075,7 @@ export const route = {
 				size: { w: 5.6, h: 2 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 35`, `Ruta 35`],  
+					title: [`Route 35`, `Ruta 35`, `35号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'nidoranm', minLevel: 14, maxLevel: 16, chance: 20 },
@@ -2100,7 +2100,7 @@ export const route = {
 				size: { w: 3, h: 4.4 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'nidoranf', minLevel: 12, maxLevel: 15, chance: 30 }, 
@@ -2122,7 +2122,7 @@ export const route = {
 				size: { w: 3.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'noctowl', minLevel: 14, maxLevel: 16, chance: 9 }, 
@@ -2228,7 +2228,7 @@ export const route = {
 				},
 			},
 			tree: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 0, y: 0 },
 				size: { w: 2, h: 1 },
 				event: {
@@ -2331,7 +2331,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 15, y: 3 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -2584,7 +2584,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 19, y: 14 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -2712,7 +2712,7 @@ export const route = {
 				size: { w: 3, h: 2.2 },
 				event: {
 					type: 'routeBattle',
-					title: [`Union Cave`, `Cueva Unión`], 
+					title: [`Union Cave`, `Cueva Unión`, `连接洞窟`], 
 					background: './assets/images/background/battle2.png',
 					pokemon: [ 
 						{ name: 'sandshrew', minLevel: 9, maxLevel: 10, chance: 21 },
@@ -2742,7 +2742,7 @@ export const route = {
 				size: { w: 3, h: 2.2 },
 				event: {
 					type: 'routeBattle',
-					title: [`Union Cave`, `Cueva Unión`], 
+					title: [`Union Cave`, `Cueva Unión`, `连接洞窟`], 
 					background: './assets/images/background/battle2.png',
 					pokemon: [ 
 						{ name: 'sandshrew', minLevel: 9, maxLevel: 10, chance: 21 },
@@ -3153,7 +3153,7 @@ export const route = {
 				size: { w: 2.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Ilex Forest`, `Encinar`],  
+					title: [`Ilex Forest`, `Encinar`, `桐树林`],  
 					background: './assets/images/background/battle7.png',
 					pokemon: [ 
 						{ name: 'caterpie', minLevel: 11, maxLevel: 13, chance: 18 },
@@ -3240,7 +3240,7 @@ export const route = {
 				size: { w: 2.6, h: 2 },
 				event: {
 					type: 'routeBattle',
-					title: [`Ilex Forest`, `Encinar`],  
+					title: [`Ilex Forest`, `Encinar`, `桐树林`],  
 					background: './assets/images/background/battle7.png',
 					pokemon: [ 
 						{ name: 'caterpie', minLevel: 11, maxLevel: 13, chance: 18 },
@@ -3573,7 +3573,7 @@ export const route = {
 				size: { w: 5.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'nidoranm', minLevel: 14, maxLevel: 16, chance: 20 },
@@ -3706,7 +3706,7 @@ export const route = {
 				size: { w: 3.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 36`, `Ruta 36`],  
+					title: [`Route 36`, `Ruta 36`, `36号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'noctowl', minLevel: 14, maxLevel: 16, chance: 9 }, 
@@ -3736,7 +3736,7 @@ export const route = {
 				size: { w: 3.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 37`, `Ruta 37`],  
+					title: [`Route 37`, `Ruta 37`, `37号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'pidgey', minLevel: 14, maxLevel: 18, chance: 15 },
@@ -3797,7 +3797,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 3, y: 11 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -3828,7 +3828,7 @@ export const route = {
 				size: { w: 3.6, h: 3 },
 				event: {
 					type: 'routeBattle',
-					title: [`Route 37`, `Ruta 37`],  
+					title: [`Route 37`, `Ruta 37`, `37号道路`],  
 					background: './assets/images/background/battle6.png',
 					pokemon: [ 
 						{ name: 'pidgey', minLevel: 14, maxLevel: 18, chance: 15 },
@@ -4759,7 +4759,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 3, y: 8 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -5571,7 +5571,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 18, y: 13 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -7600,7 +7600,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 19, y: 13 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -8048,7 +8048,7 @@ export const route = {
 				},
 			},
 			hiddenButton: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 18, y: 8 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -8398,7 +8398,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 2, y: 13 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -8945,7 +8945,7 @@ export const route = {
 				},
 			},
 			lumberjackCabin: {
-				name: ["Lumberjack's Cabin", 'Cabaña del Leñador'],
+				name: ["Lumberjack's Cabin", 'Cabaña del Leñador', '伐木工小屋'],
 				position: { x: 17, y: 1},
 				size: { w: 5, h: 4 },
 				event: {
@@ -10162,7 +10162,7 @@ export const route = {
 		song: "route26",
 		worldEvent: {
 			smallHouse: {
-				name: ["Khytrayer's house", 'Casa de Khytrayer'],
+				name: ["Khytrayer's house", 'Casa de Khytrayer', 'Khytrayer的家'],
 				position: { x: 5, y: 7},
 				size: { w: 4, h: 3 },
 				event: {
@@ -10213,7 +10213,7 @@ export const route = {
 		song: "route26",
 		worldEvent: {
 			smallHouse: {
-				name: ["Khytrayer's house", 'Casa de Khytrayer'],
+				name: ["Khytrayer's house", 'Casa de Khytrayer', 'Khytrayer的家'],
 				position: { x: 5, y: 7},
 				size: { w: 4, h: 3 },
 				event: {
@@ -11213,7 +11213,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 7, y: 4 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -11435,7 +11435,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 10, y: 9 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -11580,7 +11580,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 14, y: 6 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -12380,7 +12380,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 7, y: 4 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -12544,7 +12544,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 18, y: 12 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -13044,7 +13044,7 @@ export const route = {
 				size: { w: 2, h: 7 },
 				event: {
 					type: 'routeBattle',
-					title: [`Power Plant`, `Central Eléctrica`],
+					title: [`Power Plant`, `Central Eléctrica`, `无人发电厂`],
 					background: './assets/images/background/battle13.png',
 					pokemon: [  
 						{ name: 'electrode', minLevel: 68, maxLevel: 75, chance: 17 }, 
@@ -13066,7 +13066,7 @@ export const route = {
 				size: { w: 2, h: 7 },
 				event: {
 					type: 'routeBattle',
-					title: [`Power Plant`, `Central Eléctrica`],
+					title: [`Power Plant`, `Central Eléctrica`, `无人发电厂`],
 					background: './assets/images/background/battle13.png',
 					pokemon: [  
 						{ name: 'electrode', minLevel: 68, maxLevel: 75, chance: 17 }, 
@@ -13604,7 +13604,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 2, y: 5 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -14036,7 +14036,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 14, y: 9 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -15001,7 +15001,7 @@ export const route = {
 				},
 			},
 			singasCabin: {
-				name: ["Singa's Cabin", 'Cabaña de Singa'],
+				name: ["Singa's Cabin", 'Cabaña de Singa', '辛加的小屋'],
 				position: { x: 14, y: 2},
 				size: { w: 5, h: 4 },
 				event: {
@@ -15078,7 +15078,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 4, y: 12 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -15533,7 +15533,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 10, y: 8 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -15892,7 +15892,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 21, y: 13 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -16215,7 +16215,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 8, y: 14 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -16653,7 +16653,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 1, y: 3 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -16749,7 +16749,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 19, y: 13 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -17119,7 +17119,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 7, y: 6 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -17737,7 +17737,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 4, y: 11 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -18029,7 +18029,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 9, y: 7 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -18385,7 +18385,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 8, y: 6 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -19960,7 +19960,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 21, y: 8 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -20316,7 +20316,7 @@ export const route = {
 				},
 			},
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 7, y: 11 },
 				size: { w: 1, h: 1 },
 				event: {
@@ -20389,7 +20389,7 @@ export const route = {
 				},
 			},	
 			hiddenItem: {
-				name: [``, ``],
+				name: [``, ``, ``],
 				position: { x: 15, y: 3 },
 				size: { w: 1, h: 1 },
 				event: {

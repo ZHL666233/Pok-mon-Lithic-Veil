@@ -143,6 +143,7 @@ export const move = {
 		description: [
 			'Deals Psychic-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Psíquico. <br><br>No tiene ningun efecto secundario.',
+			'造成超能力属性伤害。<br><br>无附加效果。'
 		]
 	},
 	'gust': {
@@ -172,6 +173,7 @@ export const move = {
 	    description: [
 	    	'Deals Flying-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Volador. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成飞行属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'poisonSting': {
@@ -259,6 +261,7 @@ export const move = {
 		description: [
 			'Deals Ice-type damage. <br><br>It is super effective against Water-type.',
 	    	'Causa daño de tipo Hielo. <br><br>Es supereficaz contra tipo Agua.',
+			'造成冰属性伤害。<br><br>无附加效果。'
 		]
 	},
 	'glare': {
@@ -352,6 +355,7 @@ export const move = {
 	    description: [
 	    	'Deals Bug-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Bicho. <br><br>No tiene ningun efecto secundario.',
+	    	'造成虫属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'poisonJab': {
@@ -372,6 +376,7 @@ export const move = {
 	    description: [
 	    	'Deals Normal-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Normal. <br><br>No tiene ningun efecto secundario.',
+	    	'造成一般属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'hyperVoice': {
@@ -382,6 +387,7 @@ export const move = {
 	    description: [
 	    	'Deals Normal-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Normal. <br><br>No tiene ningun efecto secundario.',
+	    	'造成一般属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'fireBlast': {
@@ -442,6 +448,7 @@ export const move = {
 	    description: [
 	    	'Deals Psychic-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Psíquico. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成超能力属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'poisonFang': {
@@ -474,6 +481,7 @@ export const move = {
 	    description: [
 	    	'Deals Grass-type damage. <br><br>Heals the user for half of the damage dealt.',
 	    	'Causa daño de tipo Planta. <br><br>Cura la mitad del daño causado.',
+	    	'造成草属性伤害。<br><br>回复造成伤害一半的HP。'
 	    ]
 	},
 	'petalDance': {
@@ -536,6 +544,7 @@ export const move = {
 	    description: [
 	    	'Deals Ground-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Tierra. <br><br>No tiene ningun efecto secundario.',
+	    	'造成地面属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'magnitude': {
@@ -546,7 +555,8 @@ export const move = {
 	    randomPower: [0.2, 2],
 	    description: [
 	    	"Deals Ground-type damage. <br><br>Its power randomly varies between x0.2 and x2.",
-	    	'Causa daño de tipo Tierra. <br><br>Su poder varía entre x0.2 y x2 aleatoriamente.'
+	    	'Causa daño de tipo Tierra. <br><br>Su poder varía entre x0.2 y x2 aleatoriamente.',
+	    	'造成地面属性伤害。<br><br>威力在一定范围内随机变化。'
 	    ]
 	},
 	'metronome': {
@@ -557,7 +567,8 @@ export const move = {
 	    randomPower: [0.5, 1.5],
 	    description: [
 	    	"Deals Normal-type damage. <br><br>Its power randomly varies between x0.5 and x1.5.",
-	    	'Causa daño de tipo Normal. <br><br>Su poder varía entre x0.5 y x1.5 aleatoriamente.'
+	    	'Causa daño de tipo Normal. <br><br>Su poder varía entre x0.5 y x1.5 aleatoriamente.',
+	    	'随机使出任意招式。'
 	    ]
 	},
 	'rockSlide': {
@@ -629,6 +640,7 @@ export const move = {
 	    description: [
 	    	'Deals Water-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Agua. <br><br>No tiene ningun efecto secundario.',
+	    	'造成水属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'lowKick': {
@@ -639,7 +651,8 @@ export const move = {
 	    bonusLevel: 1.5,
 	    description: [
 	    	"Deals Fighting-type damage. <br><br>If the target's level is higher than the user's, damage is increased by 50%.",
-	    	'Causa daño de tipo Lucha. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 50%.'
+	    	'Causa daño de tipo Lucha. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 50%.',
+	    	'造成格斗属性伤害。<br><br>等级高于对手时威力翻倍。'
 	    ]
 	},
 	'karateChop': {
@@ -721,6 +734,7 @@ export const move = {
 	    description: [
 	    	'Deals Fighting-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Lucha. <br><br>No tiene ningun efecto secundario.',
+	    	'造成格斗属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'energyBall': {
@@ -751,6 +765,7 @@ export const move = {
 		description: [
 			'Deals Steel-type damage. <br><br>Has a 20% chance to stun the target for 1.1 seconds.',
 	    	'Causa daño de tipo Acero. <br><br>Tiene una probablidad del 20% de aturdir al objetivo 1.1 segundos.',
+			'造成钢属性伤害。<br><br>有20%几率使目标眩晕1.1秒。'
 		]
 	},
 	'zenHeadbutt': {
@@ -763,6 +778,7 @@ export const move = {
 		description: [
 			'Deals Psychic-type damage. <br><br>Has a 20% chance to stun the target for 1.1 second.',
 	    	'Causa daño de tipo Psíquico. <br><br>Tiene una probablidad del 20% de aturdir al objetivo 1.1 segundo.',
+			'造成超能力属性伤害。<br><br>有20%几率使目标眩晕1.1秒。'
 		]
 	},
 	'flashCannon': {
@@ -792,6 +808,7 @@ export const move = {
 	    description: [
 	    	'Deals Steel-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Acero. <br><br>No tiene ningun efecto secundario.',
+	    	'造成钢属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'razorLeaf': {
@@ -823,6 +840,7 @@ export const move = {
 		description: [
 			'Deals Normal-type damage. <br><br>Has a 10% chance to stun the target for 0.9 seconds.',
 	    	'Causa daño de tipo Normal. <br><br>Tiene una probablidad del 10% de aturdir al objetivo 0.9 segundos.',
+			'造成一般属性伤害。<br><br>有10%几率使目标眩晕0.9秒。'
 		]
 	},
 	'headbutt': {
@@ -862,6 +880,7 @@ export const move = {
 	    description: [
 	    	'Deals Steel-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Acero. <br><br>No tiene ningun efecto secundario.',
+	    	'造成钢属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'aerialAce': {
@@ -891,7 +910,8 @@ export const move = {
 		description: [
   			'Deals Ice-type damage. <br><br>After hitting, it gains 30% of charge energy.',
 			'Causa daño de tipo Hielo. <br><br>Después de atacar, consigue un 30% de barra de carga.',
-		]
+  			'造成冰属性伤害。<br><br>攻击后获得30%蓄力能量。'
+  		]
 	},
 	'lick': {
 	    name: ['Lick', 'Lengüetazo', '舌舔'],
@@ -912,6 +932,7 @@ export const move = {
 	    description: [
 	    	'Deals Ground-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Tierra. <br><br>No tiene ningun efecto secundario.',
+	    	'造成地面属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'astonish': {
@@ -924,6 +945,7 @@ export const move = {
 		description: [
 			'Deals Ghost-type damage. <br><br>Has a 50% chance to stun the target for 1 second.',
 	    	'Causa daño de tipo Fantasma. <br><br>Tiene una probablidad del 50% de aturdir al objetivo 1 segundo.',
+			'造成幽灵属性伤害。<br><br>有50%几率使目标眩晕1秒。'
 		]
 	},
 	'feintAttack': {
@@ -934,7 +956,8 @@ export const move = {
 	    electroBall: true,
 	    description: [
 	    	"Deals Dark-type damage. <br><br>Uses the user's Speed stat to calculate damage.",
-	    	'Causa daño de tipo Siniestro. <br><br>Golpea con el valor de Velocidad.'
+	    	'Causa daño de tipo Siniestro. <br><br>Golpea con el valor de Velocidad.',
+	    	'造成恶属性伤害。<br><br>必定先手攻击。'
 	    ]
 	},
 	'shadowBall': {
@@ -1004,6 +1027,7 @@ export const move = {
 		description: [
 			'Deals Dragon-type damage. <br><br>Slows the target for 1.2 seconds.',
 	    	'Causa daño de tipo Dragon. <br><br>Ralentiza al objetivo 1.2 segundos.',
+			'造成龙属性伤害。<br><br>使目标减速1.2秒。'
 		]
 	},
 	'eggBomb': {
@@ -1067,6 +1091,7 @@ export const move = {
 	    description: [
 	    	'Deals Fighting-type damage. <br><br>The user takes 30% of the damage dealt. <br><br>This move cannot knock out the user.',
 	    	'Causa daño de tipo Lucha. <br><br>El usuario sufre un 30% del daño causado. <br><br>Este movimiento no puede debilitar al usuario.',
+	    	'造成格斗属性伤害。<br><br>使用者受到反伤。'
 	    ]
 	},
 	'tropicalKick': {
@@ -1077,6 +1102,7 @@ export const move = {
 	    description: [
 	    	'Deals Grass-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Planta. <br><br>No tiene ningun efecto secundario.',
+	    	'造成草属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'smokeScreen': {
@@ -1088,6 +1114,7 @@ export const move = {
 		description: [
 			'Deals Fire-type damage. <br><br>Slows the target for 0.8 seconds.',
 	    	'Causa daño de tipo Fuego. <br><br>Ralentiza al objetivo 0.8 segundos.',
+			'造成火属性伤害。<br><br>使目标减速0.8秒。'
 		]
 	},
 	'cometPunch': {
@@ -1149,6 +1176,7 @@ export const move = {
 		description: [
 			'Deals Normal-type damage. <br><br>Has a 30% chance to stun the target for 1.5 seconds.',
 	    	'Causa daño de tipo Normal. <br><br>Tiene una probablidad del 30% de aturdir al objetivo 1.5 segundos.',
+			'造成一般属性伤害。<br><br>有30%几率使目标眩晕1.5秒。'
 		]
 	},
 	'thunder': {
@@ -1170,6 +1198,7 @@ export const move = {
 		description: [
 			'Deals Ice-type damage. <br><br>Has a 30% chance to stun the target for 1.5 seconds.',
 	    	'Causa daño de tipo Hielo. <br><br>Tiene una probablidad del 30% de aturdir al objetivo 1.5 segundos.',
+			'造成冰属性伤害。<br><br>有30%几率使目标眩晕1.5秒。'
 		]
 	},
 	'outrage': {
@@ -1210,6 +1239,7 @@ export const move = {
 	    description: [
 	    	'Deals Flying-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Volador. <br><br>No tiene ningun efecto secundario.',
+	    	'造成飞行属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'ancientPower': {
@@ -1315,6 +1345,7 @@ export const move = {
 	    description: [
 	    	'Deals Dark-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Siniestro. <br><br>No tiene ningun efecto secundario.',
+	    	'造成恶属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'eruption': {
@@ -1385,7 +1416,8 @@ export const move = {
 	    electroBall: true,
 	    description: [
 	    	"Deals Electric-type damage. <br><br>Uses the user's Speed stat to calculate damage.",
-	    	'Causa daño de tipo Electrico. <br><br>Golpea con el valor de Velocidad.'
+	    	'Causa daño de tipo Electrico. <br><br>Golpea con el valor de Velocidad.',
+	    	'造成电属性伤害。<br><br>以自身速度计算伤害。'
 	    ]
 	},
 	'foulPlay': {
@@ -1396,7 +1428,8 @@ export const move = {
 	    foulPlay: true,
 	    description: [
 	    	"Deals Dark-type damage. <br><br>Uses the target's Attack stat to calculate damage.",
-	    	'Causa daño de tipo Siniestro. <br><br>Golpea con el valor de Ataque del objetivo.'
+	    	'Causa daño de tipo Siniestro. <br><br>Golpea con el valor de Ataque del objetivo.',
+	    	'造成恶属性伤害。<br><br>以对手的攻击计算伤害。'
 	    ]
 	},
 	'sludgeWave': {
@@ -1428,6 +1461,7 @@ export const move = {
 	    description: [
 	    	"Deals Dark-type damage. <br><br>Sets the user's charge bar equal to the target's.",
 	    	'Causa daño de tipo Siniestro. <br><br>Iguala la barra de carga con la del objetivo.',
+	    	'造成恶属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'gyroBall': {
@@ -1438,7 +1472,8 @@ export const move = {
 	    electroBall: true,
 	    description: [
 	    	"Deals Steel-type damage. <br><br>Uses the user's Speed stat to calculate damage.",
-	    	'Causa daño de tipo Acero. <br><br>Golpea con el valor de Velocidad.'
+	    	'Causa daño de tipo Acero. <br><br>Golpea con el valor de Velocidad.',
+	    	'造成钢属性伤害。<br><br>自身速度越慢威力越大。'
 	    ]
 	},
 	'drillRun': {
@@ -1450,6 +1485,7 @@ export const move = {
 	    description: [
 	    	'Deals Ground-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Tierra. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成地面属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'earthPower': {
@@ -1469,7 +1505,8 @@ export const move = {
 	    bonusLevel: 2,
 	    description: [
 	    	"Deals Grass-type damage. <br><br>If the target's level is higher than the user's, damage is increased by 100%.",
-	    	'Causa daño de tipo Planta. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.'
+	    	'Causa daño de tipo Planta. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.',
+	    	'造成草属性伤害。<br><br>与水或火属性组合时威力翻倍并附加效果。'
 	    ]
 	},
 	'firePledge': {
@@ -1480,7 +1517,8 @@ export const move = {
 	    bonusLevel: 2,
 	    description: [
 	    	"Deals Fire-type damage. <br><br>If the target's level is higher than the user's, damage is increased by 100%.",
-	    	'Causa daño de tipo Fuego. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.'
+	    	'Causa daño de tipo Fuego. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.',
+	    	'造成火属性伤害。<br><br>与草或水属性组合时威力翻倍并附加效果。'
 	    ]
 	},
 	'waterPledge': {
@@ -1491,7 +1529,8 @@ export const move = {
 	    bonusLevel: 2,
 	    description: [
 	    	"Deals Water-type damage. <br><br>If the target's level is higher than the user's, damage is increased by 100%.",
-	    	'Causa daño de tipo Agua. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.'
+	    	'Causa daño de tipo Agua. <br><br>Si el nivel del objetivo es superior al usuario, aumenta el daño un 100%.',
+	    	'造成水属性伤害。<br><br>与火或草属性组合时威力翻倍并附加效果。'
 	    ]
 	},
 	'armThrust': {
@@ -1509,6 +1548,7 @@ export const move = {
 	    	`Causa daño de tipo Lucha. <br><br>Aumenta su poder en 5 con cada golpe hasta un máximo de 50. <br><br>
 	    	Al terminar la secuencia o cambiar de movimiento vuelve al daño mínimo. <br><br>
 	    	Tiene una probablidad del 50% de aturdir al objetivo 0.8 segundos.`,
+			'造成格斗属性伤害。<br><br>连续使用威力提升，最多叠加5次。<br><br>有50%几率使目标眩晕0.8秒。换招后伤害重置。'
 		]
 	},
 	'payback': {
@@ -1564,6 +1604,7 @@ export const move = {
 		description: [
 			'Deals Normal-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Normal. <br><br>No tiene ningun efecto secundario.',
+			'造成与使用者属性相同的伤害。<br><br>效果随机变化。'
 		]
 	},
 	'prismaticPledge': {
@@ -1575,6 +1616,7 @@ export const move = {
 		description: [
 			"Deals damage of the pokemon's main type. <br><br>Has no secondary effect.",
 	    	'Causa daño del tipo principal del pokemon. <br><br>No tiene ningun efecto secundario.',
+			'造成与宝可梦主属性相同的伤害。<br><br>无附加效果。'
 		]
 	},
 	'fireSpin': {
@@ -1608,6 +1650,7 @@ export const move = {
 	    description: [
 	    	'Deals Grass-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Planta. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成草属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'psychoCut': {
@@ -1630,6 +1673,7 @@ export const move = {
 		description: [
 			'Deals Water-type damage. <br><br>Has a 50% chance to stun the target for 1.5 seconds.',
 	    	'Causa daño de tipo Agua. <br><br>Tiene una probablidad del 50% de aturdir al objetivo 1.5 segundos.',
+			'造成水属性伤害。<br><br>有50%几率使目标眩晕1.5秒。'
 		]
 	},
 	'sacredFire': {
@@ -1641,6 +1685,7 @@ export const move = {
 	    description: [
 	    	'Deals Fire-type damage. <br><br>The user takes 30% of the damage dealt. <br><br>This move cannot knock out the user.',
 	    	'Causa daño de tipo Fuego. <br><br>El usuario sufre un 30% del daño causado. <br><br>Este movimiento no puede debilitar al usuario.',
+	    	'造成火属性伤害。<br><br>使用者受到反伤。'
 	    ]
 	},
 	'rockSmash': {
@@ -1673,6 +1718,7 @@ export const move = {
 	    description: [
 	    	'Deals Poison-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Veneno. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成毒属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'skyUppercut': {
@@ -1683,6 +1729,7 @@ export const move = {
 	    description: [
 	    	'Deals Fighting-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Lucha. <br><br>No tiene ningun efecto secundario.',
+	    	'造成格斗属性伤害。<br><br>无附加效果。'
 	    ]
 	},
 	'bounce': {
@@ -1695,6 +1742,7 @@ export const move = {
 	    description: [
 	    	'Deals flying-type damage. <br><br>Has a 12% chance to stun the target for 1.8 seconds.',
 	    	'Causa daño de tipo Volador. <br><br>Tiene una probablidad del 12% de aturdir al objetivo 1.8 segundos.',
+	    	'造成飞行属性伤害。<br><br>有12%几率使目标眩晕1.8秒。'
 	    ]
 	},
 	'blazeKick': {
@@ -1706,6 +1754,7 @@ export const move = {
 	    description: [
 	    	'Deals Fire-type damage. <br><br>Has a higher than usual critical hit chance.',
 	    	'Causa daño de tipo Fuego. <br><br>Su probablidad de crítico es mayor de lo normal.',
+	    	'造成火属性伤害。<br><br>容易击中要害。'
 	    ]
 	},
 	'needleArm': {
@@ -1718,6 +1767,7 @@ export const move = {
 		description: [
 			'Deals Grass-type damage. <br><br>Has a 25% chance to stun the target for 2 seconds.',
 	    	'Causa daño de tipo Planta. <br><br>Tiene una probablidad del 25% de aturdir al objetivo 2 segundos.',
+			'造成草属性伤害。<br><br>有25%几率使目标眩晕2秒。'
 		]
 	},
 	'dragonClaw': {
@@ -1748,6 +1798,7 @@ export const move = {
 		description: [
 			'Deals Electric-type damage. <br><br>Slows the target for 2 seconds.',
 	    	'Causa daño de tipo Electrico. <br><br>Ralentiza al objetivo 2 segundos.',
+			'造成电属性伤害。<br><br>使目标减速2秒。'
 		]
 	},
 	'weatherBall': {
@@ -1759,6 +1810,7 @@ export const move = {
 		description: [
 			"Deals damage of the pokemon's main type. <br><br>Has no secondary effect.",
 	    	'Causa daño del tipo principal del pokemon. <br><br>No tiene ningun efecto secundario.',
+			'根据当前天气改变属性并造成伤害。'
 		]
 	},
 	'bouncyBubble': {
@@ -1770,6 +1822,7 @@ export const move = {
 	    description: [
 	    	'Deals Water-type damage. <br><br>Heals the user for half of the damage dealt.',
 	    	'Causa daño de tipo Agua. <br><br>Cura la mitad del daño causado.',
+	    	'造成水属性伤害。<br><br>回复造成伤害一半的HP。'
 	    ]
 	},
 	'mirrorShot': {
@@ -1780,6 +1833,7 @@ export const move = {
 		description: [
 			'Deals Steel-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Acero. <br><br>No tiene ningun efecto secundario.',
+			'造成钢属性伤害。<br><br>无附加效果。'
 		]
 	},
 	'fellStinger': {
@@ -1813,7 +1867,8 @@ export const move = {
 		description: [
   			'Deals Water-type damage. <br><br>After hitting, it gains 80% of charge energy.',
 			'Causa daño de tipo Agua. <br><br>Después de atacar, consigue un 80% de barra de carga.',
-		]
+  			'造成水属性伤害。<br><br>攻击后获得80%蓄力能量。'
+  		]
 	},
 	'accelerock': {
 		name: ['Accelerock', 'Roca veloz', '加速岩'],
@@ -1824,7 +1879,8 @@ export const move = {
 		description: [
   			'Deals Rock-type damage. <br><br>After hitting, it gains 25% of charge energy.',
 			'Causa daño de tipo Roca. <br><br>Después de atacar, consigue un 25% de barra de carga.',
-		]
+  			'造成岩石属性伤害。<br><br>攻击后获得25%蓄力能量。'
+  		]
 	},
 	'grassyGlide': {
 		name: ['Grassy Glide', 'Fitoimpulso', '草滑'],
@@ -1835,7 +1891,8 @@ export const move = {
 		description: [
   			'Deals Grass-type damage. <br><br>After hitting, it gains 50% of charge energy.',
 			'Causa daño de tipo Planta. <br><br>Después de atacar, consigue un 50% de barra de carga.',
-		]
+  			'造成草属性伤害。<br><br>攻击后获得50%蓄力能量。'
+  		]
 	},
 	'zapCannon': {
 	    name: ['Zap Cannon', 'Electrocañón ', '电磁炮'],
@@ -1856,6 +1913,7 @@ export const move = {
 		description: [
 			'Deals Ghost-type damage. <br><br>Has no secondary effect.',
 	    	'Causa daño de tipo Fantasma. <br><br>No tiene ningun efecto secundario.',
+			'造成幽灵属性伤害。<br><br>无附加效果。'
 		]
 	},
 }

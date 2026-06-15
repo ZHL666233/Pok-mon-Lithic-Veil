@@ -8,7 +8,7 @@ import { route as routeBugEmergency} from '../location/routeData.js';
 export const getNPCs = (main, savedStates = {}) => ({
     //exceptions
     needPokemon: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -23,7 +23,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needPokeball: {
-        name: ['Mom', `Mamà`],
+        name: ['Mom', 'Mamà', '妈妈'],
         state: 0,
         dialogues: [
             [
@@ -45,7 +45,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needRod: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -60,7 +60,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needSprinkler: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -75,7 +75,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needPowerBracelet: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -90,7 +90,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needWaterBike: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -105,7 +105,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     needWaterBikeUpgraded: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -2610,7 +2610,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     rivalMom: {
-        name: [`${main.rival[0].name}'s mother`, `Madre de ${main.rival[0].name}`],
+        name: [`${main.rival[0].name}'s mother`, `Madre de ${main.rival[0].name}`, `${main.rival[0].name}'s mother`],
         state: savedStates.rivalMom ?? 0,
         dialogues: [
             [
@@ -7775,7 +7775,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     blackthornCityHiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.blackthornCityHiddenItem ?? 0,
         dialogues: [
             [
@@ -9528,7 +9528,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     housePalletTown: {
-        name: [`House`, `Casa`],
+        name: [`House`, `Casa`, `房屋`],
         state: 0,
         dialogues: [
             [
@@ -11525,7 +11525,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     // Route 3
     route3HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route3HiddenItem ?? 0,
         dialogues: [
             [
@@ -11626,7 +11626,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route4HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route4HiddenItem ?? 0,
         dialogues: [
             [
@@ -12047,7 +12047,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route8HiddenItemA: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route8HiddenItemA ?? 0,
         dialogues: [
             [
@@ -12083,7 +12083,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route8HiddenItemB: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route8HiddenItemB ?? 0,
         dialogues: [
             [
@@ -12235,7 +12235,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     // Ruta 12
     route12HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route12HiddenItem ?? 0,
         dialogues: [
             [
@@ -12452,7 +12452,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     hertzVault: {
-        name: [`Hertz Vault`, `Bóveda de Hertz`],
+        name: [`Hertz Vault`, `Bóveda de Hertz`, `赫兹宝库`],
         state: savedStates.hertzVault ?? 0,
         dialogues: [
             [
@@ -12502,7 +12502,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     //Ruta 14
     route14HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route14HiddenItem ?? 0,
         dialogues: [
             [
@@ -12934,7 +12934,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     viridianForestHiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.viridianForestHiddenItem ?? 0,
         dialogues: [
             [
@@ -14274,7 +14274,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                         main.dialogue.endDialogue()
                         main.route.open({
                             type: 'routeBattle',
-                            title: [`Mansion`, `Mansión`],
+                            title: [`Mansion`, `Mansión`, `大宅`],
                             background: './assets/images/background/battle1.png',
                             pokemon: [ 
                                 { name: 'raticate', minLevel: 41, maxLevel: 50, chance: 12 }, 
@@ -15592,7 +15592,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route32HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route32HiddenItem ?? 0,
         dialogues: [
             [
@@ -15691,7 +15691,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     ruinsOfAlphRuinTree: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: 0,
         dialogues: [
             [
@@ -15712,7 +15712,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     ruinsOfAlphRuinHiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.ruinsOfAlphRuinHiddenItem ?? 0,
         dialogues: [
             [
@@ -16153,7 +16153,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route36HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route36HiddenItem ?? 0,
         dialogues: [
             [
@@ -16676,7 +16676,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route37HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route37HiddenItem ?? 0,
         dialogues: [
             [
@@ -16801,7 +16801,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     // RUTA 39
     route39HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route39HiddenItem ?? 0,
         dialogues: [
             [
@@ -17063,7 +17063,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     //RUTA 42
     route42HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route42HiddenItem ?? 0,
         dialogues: [
             [
@@ -17544,7 +17544,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route45HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route45HiddenItem ?? 0,
         dialogues: [
             [
@@ -17580,7 +17580,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     apachetaJohto: {
-        name:  [`APACHETA`, `APACHETA`],
+        name:  [`APACHETA`, `APACHETA`, `阿帕切塔`],
         state: savedStates.apachetaJohto ?? 0,
         dialogues: [
             [
@@ -17750,7 +17750,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     //route48
     route48HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route48HiddenItem ?? 0,
         dialogues: [
             [
@@ -17787,7 +17787,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     // PASO ACANTILADO
     cliffEdgeGateHiddenButton: {
-        name: [``, ``],
+        name: [``, ``, ``],
         state: savedStates.cliffEdgeGateHiddenButton ?? 0,
         dialogues: [
             [
@@ -19004,7 +19004,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                         main.player.changeGold(-500);
                         main.route.open({
                             type: 'routeBattle',
-                            title: [`Safari Zone`, `Zona Safari`],
+                            title: [`Safari Zone`, `Zona Safari`, `狩猎地带`],
                             background: './assets/images/background/battle1.png',
                             safari: true,
                             pokemon: [  
@@ -20241,7 +20241,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     magnemite: {
-        name: ["MAGNEMITE", "MAGNEMITE"],
+        name: ["MAGNEMITE", "MAGNEMITE", "小磁怪"],
         state: savedStates.magnemite ?? 0,
         dialogues: [
             [
@@ -20373,7 +20373,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     cb: () => {
                         main.dialogue.endDialogue();
                         main.staticPokemon.open({
-                            title: [`Hertz Vault`, `Bóveda de Hertz`],
+                            title: [`Hertz Vault`, `Bóveda de Hertz`, `赫兹宝库`],
                             pokemon: 'magnemite',
                             level: 666,
                             ivs: {
@@ -20677,7 +20677,7 @@ export const getNPCs = (main, savedStates = {}) => ({
     },
     // APACHAN
     apachetaApachan: {
-        name:  [`APACHETA`, `APACHETA`],
+        name:  [`APACHETA`, `APACHETA`, `阿帕切塔`],
         state: savedStates.apachetaApachan ?? 0,
         dialogues: [
             [
@@ -21104,7 +21104,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route56HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route56HiddenItem ?? 0,
         dialogues: [
             [
@@ -21425,7 +21425,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route55HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route55HiddenItem ?? 0,
         dialogues: [
             [
@@ -21461,7 +21461,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route57HiddenItem: {
-        name:  [`${main.player.name}`, `${main.player.name}`],
+        name:  [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route57HiddenItem ?? 0,
         dialogues: [
             [
@@ -22232,7 +22232,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route63HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route63HiddenItem ?? 0,
         dialogues: [
             [
@@ -22408,7 +22408,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route53HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route53HiddenItem ?? 0,
         dialogues: [
             [
@@ -22674,7 +22674,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route52HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route52HiddenItem ?? 0,
         dialogues: [
             [
@@ -23325,7 +23325,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route51HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route51HiddenItem ?? 0,
         dialogues: [
             [
@@ -23479,7 +23479,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     opalTownHiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.opalTownHiddenItem ?? 0,
         dialogues: [
             [
@@ -23980,7 +23980,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route65HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route65HiddenItem ?? 0,
         dialogues: [
             [
@@ -24211,7 +24211,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route68HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route68HiddenItem ?? 0,
         dialogues: [
             [
@@ -24506,7 +24506,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     regirock: {
-        name: ["REGIROCK", "REGIROCK"],
+        name: ["REGIROCK", "REGIROCK", "雷吉洛克"],
         state: savedStates.regirock ?? 0,
         dialogues: [
             [
@@ -24578,7 +24578,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     regice: {
-        name: ["REGICE", "REGICE"],
+        name: ["REGICE", "REGICE", "雷吉艾斯"],
         state: savedStates.regice ?? 0,
         dialogues: [
             [
@@ -24650,7 +24650,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     registeel: {
-        name: ["REGISTEEL", "REGISTEEL"],
+        name: ["REGISTEEL", "REGISTEEL", "雷吉斯奇鲁"],
         state: savedStates.registeel ?? 0,
         dialogues: [
             [
@@ -24722,7 +24722,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route60HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route60HiddenItem ?? 0,
         dialogues: [
             [
@@ -24758,7 +24758,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     marbleCityHiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.marbleCityHiddenItem ?? 0,
         dialogues: [
             [
@@ -25346,7 +25346,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     route50HiddenItem: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.route50HiddenItem ?? 0,
         dialogues: [
             [
@@ -25570,7 +25570,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     mirageIslandHiddenItemA: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.mirageIslandHiddenItemA ?? 0,
         dialogues: [
             [
@@ -25606,7 +25606,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     mirageIslandHiddenItemB: {
-        name: [`${main.player.name}`, `${main.player.name}`],
+        name: [`${main.player.name}`, `${main.player.name}`, `${main.player.name}`],
         state: savedStates.mirageIslandHiddenItemB ?? 0,
         dialogues: [
             [
@@ -25794,7 +25794,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     missingno: {
-        name: ["???", "???"],
+        name: ["???", "???", "???"],
         state: savedStates.missingno ?? 0,
         dialogues: [
             [
