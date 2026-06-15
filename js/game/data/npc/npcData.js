@@ -14892,7 +14892,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "To capture Pokémon, make sure to activate 'Capture Mode' during wild battles.",
                         "Para poder capturar Pokémon, asegúrate de activar el 'Modo Captura' durante los combates salvajes.",
-                    "要捕捉宝可梦，记得在野生战斗中开启"捕获模式"。"
+                    "要捕捉宝可梦，记得在野生战斗中开启'捕获模式'。"
                     ],
                 },
                 {
