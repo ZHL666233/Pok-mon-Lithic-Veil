@@ -1501,7 +1501,7 @@ class RoutePokemonCaptured extends Popup {
     update() {
         const lang = this.component.main.lang;
 
-        const prompt = [`Do you want ${this.pokemon.name} to join your party?`, `¿Quieres que ${this.pokemon.name} se una a tu grupo?`]
+        const prompt = [`Do you want ${this.pokemon.name} to join your party?`, `¿Quieres que ${this.pokemon.name} se una a tu grupo?`, `要让${this.pokemon.name}加入你的队伍吗？`]
 
         this.promp.innerText = prompt[lang];
         this.prompBottom.innerText = text.route.capturePromptBottom[lang];

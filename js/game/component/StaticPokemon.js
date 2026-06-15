@@ -1057,12 +1057,14 @@ class StaticWin extends Popup {
 
         const promptText = [
             `${this.component.data.pokemon.toUpperCase()} defeated!`,
-            `¡${this.component.data.pokemon.toUpperCase()} derrotado!`
+            `¡${this.component.data.pokemon.toUpperCase()} derrotado!`,
+            `${this.component.data.pokemon.toUpperCase()} 被击败了！`
         ];
 
         const promptBottomText = [
             `A ${this.component.data.pokemon.toUpperCase()} egg lies on the ground.`, 
-            `Un huevo de ${this.component.data.pokemon.toUpperCase()} reposa en el suelo.`
+            `Un huevo de ${this.component.data.pokemon.toUpperCase()} reposa en el suelo.`,
+            `地上有一个${this.component.data.pokemon.toUpperCase()}的蛋。`
         ]
 
         this.promp.innerText = promptText[lang];
