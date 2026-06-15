@@ -1052,7 +1052,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm Yasmina, the Gym Leader.",
                         "¡Soy Yasmina, la líder del gimnasio.",
-                    "我是阿蜜，Gym Leader的道馆馆主。"
+                    "我是阿蜜，道馆馆主。"
                     ]
                 },
                 {
@@ -1867,7 +1867,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I also give you TM64, which contains the move Zen Headbutt.",
                         "También te hago entrega de la MT64 que contiene el movimiento Cabezazo zen.",
-                    "我还要给你TM64，里面包含了招式Zen Headbutt。"
+                    "我还要给你招式机64，里面包含了招式意念头锤。"
                     ],
                     reward: {
                         item: item.tm.tm64,
@@ -1982,7 +1982,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm Giovanni, the leader of...",
                         "Soy Giovanni, el líder de...",
-                    "我是坂木，leader of..的道馆馆主。"
+                    "我是坂木，首领的道馆馆主。"
                     ]
                 },
                 {
@@ -2254,7 +2254,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this to get started.",
+                        "来，拿着这个to get started。",
                         "Toma, llévate esta para empezar.",
                     "来，拿着这个开始吧。"
                     ],
@@ -2772,7 +2772,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Sometimes I wish I could go on an adventure too, but someone has to stay and take care of the new Pokémon.",
                         "A veces me gustaría ir de aventura también, pero alguien tiene que quedarse a cuidar a los nuevos Pokémon.",
-                    "Sometimes I wish I could go on an adventure too, but someone has to stay and take care of the new 宝可梦."
+                    "有时候我也想出去冒险，但总得有人留下来照顾新来的宝可梦。"
                     ]
                 }
             ],
@@ -3556,9 +3556,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Rare Candy inside the vessel!",
+                        "容器里有x1 Rare Candy！",
                         "¡Hay x1 Carameloraro dentro de la vasija!",
-                    "容器里有x1 Rare Candy！"
+                    "容器里有x1 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -3892,9 +3892,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There is x1 Rare Candy inside the vessel!",
+                        "容器里有x1 Rare Candy！",
                         "¡Hay x1 Carameloraro dentro de la vasija!",
-                    "容器里有x1 Rare Candy！"
+                    "容器里有x1 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -4222,7 +4222,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Exp. Share.",
                         "Toma este Repartir experiencia.",
-                    "拿着这个Exp. Share。"
+                    "拿着这个经验分享器。"
                     ],
                     reward: {
                         item: item.key.expShare,
@@ -4418,7 +4418,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this reusable Potion charge as a gift.",
+                        "来，拿着这个reusable Potion charge as a gift。",
                         "Toma, te regalo esta carga de Poción reutilizable.",
                     "来，送你一份可重复使用伤药的充能作为礼物。"
                     ],
@@ -4482,7 +4482,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this King's Rock.",
+                        "来，拿着这个King's Rock。",
                         "Mira, toma esta Roca del Rey.",
                     "来，拿着这个王者之证。"
                     ],
@@ -4684,7 +4684,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm Piruja, the witch of these lands.",
                         "Soy Piruja, la bruja de estas tierras.",
-                    "我是Piruja，witch of these lands的道馆馆主。"
+                    "我是Piruja，这片土地的女巫。"
                     ]
                 },
                 {
@@ -5045,9 +5045,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x5 Medicine inside the vessel!",
+                        "容器里有x5 Medicine！",
                         "¡Hay x5 Medicina dentro la vasija!",
-                    "容器里有x5 Medicine！"
+                    "容器里有x5 伤药！"
                     ],
                     reward: {
                         item: item.consumable.medicine,
@@ -5081,9 +5081,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x20 Tokens inside the vessel!",
+                        "容器里有x20 Tokens！",
                         "¡Hay x20 Fichas dentro la vasija!",
-                    "容器里有x20 Tokens！"
+                    "容器里有x20 代币！"
                     ],
                     reward: {
                         item: item.key.token,
@@ -5140,9 +5140,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Rare Candy inside the vessel!",
+                        "容器里有x2 Rare Candy！",
                         "¡Hay x2 Carameloraro dentro la vasija!",
-                    "容器里有x2 Rare Candy！"
+                    "容器里有x2 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -5176,9 +5176,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Protein inside the vessel!",
+                        "容器里有x1 Protein！",
                         "¡Hay x1 Proteína dentro la vasija!",
-                    "容器里有x1 Protein！"
+                    "容器里有x1 攻击增强剂！"
                     ],
                     reward: {
                         item: item.consumable.protein,
@@ -5466,7 +5466,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this TM. It holds the move Hidden Power, a technique that changes depending on who uses it.",
                         "Toma esta MT, contiene el movimiento Poder oculto, una técnica cambiante según quien la usa.",
-                    "拿着这个TM. It holds the move Hidden Power, a technique that changes depending on who uses it。"
+                    "拿着这个招式机，里面是觉醒力量，一种会随使用者而变化的招式。"
                     ],
                     reward: {
                         item: item.tm.tm151,
@@ -6248,7 +6248,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Zinc as a token of appreciation.",
                         "Ten este Zinc como muestra de aprecio.",
-                    "拿着这个Zinc as a token of appreciation。"
+                    "拿着这个特防增强剂作为谢礼。"
                     ],
                     reward: {
                         item: item.consumable.zinc,
@@ -6361,7 +6361,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this key with you.",
                         "Lleva contigo esta llave.",
-                    "拿着这个key with you。"
+                    "拿着这把钥匙。"
                     ],
                     reward: {
                         item: item.key.key1,
@@ -6439,7 +6439,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Union Ticket.",
                         "Toma este Tíquet Unión.",
-                    "拿着这个Union Ticket。"
+                    "拿着这个联合券。"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -6510,7 +6510,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Brave Mint.",
                         "Aquí tienes una Menta audaz.",
-                    "拿着这个Brave Mint。"
+                    "拿着这个勇敢薄荷。"
                     ],
                     reward: {
                         item: item.consumable.braveMint,
@@ -6631,9 +6631,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Rare Candy inside the vessel!",
+                        "容器里有x3 Rare Candy！",
                         "¡Hay x3 Carameloraro dentro la vasija!",
-                    "容器里有x3 Rare Candy！"
+                    "容器里有x3 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -7673,9 +7673,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Transumtation Flask inside the vessel!",
+                        "容器里有x1 Transumtation Flask！",
                         "¡Hay x1 Frasco Alteración dentro la vasija!",
-                    "容器里有x1 Transumtation Flask！"
+                    "容器里有x1 转化烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.transmutationFlask,
@@ -7709,9 +7709,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Rare Candy inside the vessel!",
+                        "容器里有x2 Rare Candy！",
                         "¡Hay x2 Carameloraro dentro la vasija!",
-                    "容器里有x2 Rare Candy！"
+                    "容器里有x2 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -7745,9 +7745,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Pink Apricorn inside the vessel!",
+                        "容器里有x1 Pink Apricorn！",
                         "¡Hay x1 Bonguri rosa dentro la vasija!",
-                    "容器里有x1 Pink Apricorn！"
+                    "容器里有x1 Pink 圆柑！"
                     ],
                     reward: {
                         item: item.key.apricornPink,
@@ -7783,7 +7783,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM75 Fire Wheel on the ground!",
                         "¡He encontrado x1 MT75 Rueda fuego en el suelo!",
-                    "我在地上找到了x1 TM75 Fire Wheel！"
+                    "我在地上找到了x1 招式机75 火焰轮！"
                     ],
                     reward: {
                         item: item.tm.tm75,
@@ -8058,7 +8058,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this HP Up, it'll come in handy.",
                         "Ten este Más PS, te vendrá bien.",
-                    "拿着这个HP Up, it'll come in handy。"
+                    "拿着这个HP增强剂，会派上用场的。"
                     ],
                     reward: {
                         item: item.consumable.hpUp,
@@ -8215,9 +8215,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Rare Candy inside the vessel!",
+                        "容器里有x3 Rare Candy！",
                         "¡Hay x3 Carameloraro dentro la vasija!",
-                    "容器里有x3 Rare Candy！"
+                    "容器里有x3 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -8369,7 +8369,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm training, don't distract me!",
                         "¡Estoy entrenando, no me distraigas!",
-                    "我是training，don't distract me的道馆馆主。"
+                    "我在训练，别打扰我！"
                     ]
                 },
             ]
@@ -8546,7 +8546,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Timid Mint, they say it alters a Pokémon's personality.",
                         "Toma esta Menta Miedosa, dicen que altera la personalidad de un Pokémon.",
-                    "拿着这个Timid Mint, they say it alters a Pokémon's personality。"
+                    "拿着这个胆小薄荷，据说它能改变宝可梦的性格。"
                     ],
                     reward: {
                         item: item.consumable.timidMint,
@@ -9166,9 +9166,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Calcium inside the vessel!",
+                        "容器里有x1 Calcium！",
                         "¡Hay x1 Calcio dentro la vasija!",
-                    "容器里有x1 Calcium！"
+                    "容器里有x1 特攻增强剂！"
                     ],
                     reward: {
                         item: item.consumable.calcium,
@@ -9202,9 +9202,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x4 Max Revive inside the vessel!",
+                        "容器里有x4 Max Revive！",
                         "¡Hay x4 Revivir Máximo dentro la vasija!",
-                    "容器里有x4 Max Revive！"
+                    "容器里有x4 活力块！"
                     ],
                     reward: {
                         item: item.consumable.maxRevive,
@@ -9240,7 +9240,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "There is 1 Bold Mint inside the vessel!",
                         "¡Hay x1 Menta osada dentro la vasija!",
-                    "容器里有1 Bold Mint！"
+                    "容器里有1 大胆薄荷！"
                     ],
                     reward: {
                         item: item.consumable.boldMint,
@@ -9627,9 +9627,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x4 Rare Candy inside the vessel!",
+                        "容器里有x4 Rare Candy！",
                         "¡Hay x4 Carameloraro dentro la vasija!",
-                    "容器里有x4 Rare Candy！"
+                    "容器里有x4 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -9686,7 +9686,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this Careful Mint.",
                         "Toma esta Menta cauta.",
-                    "拿着这个Careful Mint。"
+                    "拿着这个慎重薄荷。"
                     ],
                     reward: {
                         item: item.consumable.carefulMint,
@@ -9731,7 +9731,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this TM110 Smoke Screen.",
                         "Toma esta MT110 Pantalla humo.",
-                    "拿着这个TM110 Smoke Screen。"
+                    "拿着这个招式机110 烟幕。"
                     ],
                     reward: {
                         item: item.tm.tm110, 
@@ -10791,9 +10791,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Shiny Flask inside the vessel!",
+                        "容器里有x1 Shiny Flask！",
                         "¡Hay x1 Frasco Variocolor dentro la vasija!",
-                    "容器里有x1 Shiny Flask！"
+                    "容器里有x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -10827,9 +10827,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Rash Mint inside the vessel!",
+                        "容器里有x1 Rash Mint！",
                         "¡Hay x1 Menta alocada dentro la vasija!",
-                    "容器里有x1 Rash Mint！"
+                    "容器里有x1 马虎薄荷！"
                     ],
                     reward: {
                         item: item.consumable.rashMint,
@@ -11342,7 +11342,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     condition: () => main.player.gold > 999999,
                     text: [
                         "Take this herb as a \"thank you\".",
-                        "Toma esta hierba como \"agradecimiento\".",
+                        "拿着这个草药作为\"agradecimiento\".",
                     "拿着这个herb as a \"thank you\"。"
                     ],  
                     reward: {
@@ -11403,9 +11403,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Naive Mint inside the vessel!",
+                        "容器里有x1 Naive Mint！",
                         "¡Hay x1 Menta ingenua dentro la vasija!",
-                    "容器里有x1 Naive Mint！"
+                    "容器里有x1 天真薄荷！"
                     ],
                     reward: {
                         item: item.consumable.naiveMint,
@@ -11439,9 +11439,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x6 Strong Medicine inside the vessel!",
+                        "容器里有x6 Strong Medicine！",
                         "¡Hay x6 Medicina Fuerte dentro la vasija!",
-                    "容器里有x6 Strong Medicine！"
+                    "容器里有x6 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -11478,9 +11478,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Transumtation Flask inside the vessel!",
+                        "容器里有x1 Transumtation Flask！",
                         "¡Hay x1 Frasco Alteración dentro la vasija!",
-                    "容器里有x1 Transumtation Flask！"
+                    "容器里有x1 转化烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.transmutationFlask,
@@ -11533,7 +11533,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM158 Psycho Cut on the ground!",
                         "¡He encontrado x1 MT158 Psicocorte en el suelo!",
-                    "我在地上找到了x1 TM158 Psycho Cut！"
+                    "我在地上找到了x1 招式机158（精神利刃）！"
                     ],
                     reward: {
                         item: item.tm.tm158,
@@ -11634,7 +11634,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Moon Stone on the ground!",
                         "¡He encontrado x1 Piedra lunar en el suelo!",
-                    "我在地上找到了x1 Moon Stone！"
+                    "我在地上找到了x1 月之石！"
                     ],
                     reward: {
                         item: item.consumable.moonStone,
@@ -11668,9 +11668,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Transumtation Flask inside the vessel!",
+                        "容器里有x1 Transumtation Flask！",
                         "¡Hay x1 Frasco Alteración dentro la vasija!",
-                    "容器里有x1 Transumtation Flask！"
+                    "容器里有x1 转化烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.transmutationFlask,
@@ -11705,9 +11705,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Iron inside the vessel!",
+                        "容器里有x3 Iron！",
                         "¡Hay x3 Hierro dentro la vasija!",
-                    "容器里有x3 Iron！"
+                    "容器里有x3 防御增强剂！"
                     ],
                     reward: {
                         item: item.consumable.iron,
@@ -11741,9 +11741,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Medicine Total inside the vessel!",
+                        "容器里有x2 Medicine Total！",
                         "¡Hay x2 Medicina Total dentro la vasija!",
-                    "容器里有x2 Medicine Total！"
+                    "容器里有x2 全满药！"
                     ],
                     reward: {
                         item: item.consumable.medicineTotal,
@@ -11777,7 +11777,7 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There is x1 HP Up inside the vessel!",
+                        "容器里有x1 HP Up！",
                         "¡Hay x1 Más PS dentro la vasija!",
                     "容器里有x1 HP Up！"
                     ],
@@ -12017,9 +12017,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Dragon Scale inside the vessel!",
+                        "容器里有x1 Dragon Scale！",
                         "¡Hay x1 Esc. Dragón dentro la vasija!",
-                    "容器里有x1 Dragon Scale！"
+                    "容器里有x1 龙之鳞片！"
                     ],
                     reward: {
                         item: item.consumable.dragonScale,
@@ -12055,7 +12055,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text:  [
                         "I found x2 Revive on the ground!",
                         "¡He encontrado x2 Revivir en el suelo!",
-                    "我在地上找到了x2 Revive！"
+                    "我在地上找到了x2 活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -12091,7 +12091,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x3 Calcium on the ground!",
                         "¡He encontrado x3 Calcio en el suelo!",
-                    "我在地上找到了x3 Calcium！"
+                    "我在地上找到了x3 特攻增强剂！"
                     ],
                     reward: {
                         item: item.consumable.calcium,
@@ -12126,9 +12126,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x200 Tokens inside the vessel!",
+                        "容器里有x200 Tokens！",
                         "¡Hay x200 Fichas dentro la vasija!",
-                    "容器里有x200 Tokens！"
+                    "容器里有x200 代币！"
                     ],
                     reward: {
                         item: item.key.token,
@@ -12243,7 +12243,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Shiny Flask on the ground!",
                         "¡He encontrado x1 Frasco Variocolor en el suelo!",
-                    "我在地上找到了x1 Shiny Flask！"
+                    "我在地上找到了x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -12277,9 +12277,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There are x5 Medicine Total inside the vessel!",
+                        "容器里有x5 Medicine Total！",
                         "¡Hay x5 Medicina Total dentro la vasija!",
-                    "容器里有x5 Medicine Total！"
+                    "容器里有x5 全满药！"
                     ],
                     reward: {
                         item: item.consumable.medicineTotal,
@@ -12314,9 +12314,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Shiny Flask inside the vessel!",
+                        "容器里有x1 Shiny Flask！",
                         "¡Hay x1 Frasco Variocolor dentro la vasija!",
-                    "容器里有x1 Shiny Flask！"
+                    "容器里有x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -12350,9 +12350,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Zinc inside the vessel!",
+                        "容器里有x2 Zinc！",
                         "¡Hay x2 Zinc dentro la vasija!",
-                    "容器里有x2 Zinc！"
+                    "容器里有x2 特防增强剂！"
                     ],
                     reward: {
                         item: item.consumable.zinc,
@@ -12386,9 +12386,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Lunar Mail inside the vessel!",
+                        "容器里有x1 Lunar Mail！",
                         "¡Hay x1 Correo Lunar dentro la vasija!",
-                    "容器里有x1 Lunar Mail！"
+                    "容器里有x1 月之邮件！"
                     ],
                     reward: {
                         item: item.key.lunarMail,
@@ -12422,9 +12422,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Solar Mail inside the vessel!",
+                        "容器里有x1 Solar Mail！",
                         "¡Hay x1 Correo Solar dentro la vasija!",
-                    "容器里有x1 Solar Mail！"
+                    "容器里有x1 日之邮件！"
                     ],
                     reward: {
                         item: item.key.solarMail,
@@ -12510,7 +12510,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text:  [
                         "I found x1 TM144 Cross Poison on the ground!",
                         "¡He encontrado x1 MT144 Veneno X en el suelo!",
-                    "我在地上找到了x1 TM144 Cross Poison！"
+                    "我在地上找到了x1 招式机144（十字毒刃）！"
                     ],
                     reward: {
                         item: item.tm.tm144,
@@ -12561,9 +12561,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Zinc inside the vessel!",
+                        "容器里有x3 Zinc！",
                         "¡Hay x3 Zinc dentro la vasija!",
-                    "容器里有x3 Zinc！"
+                    "容器里有x3 特防增强剂！"
                     ],
                     reward: {
                         item: item.consumable.zinc,
@@ -12853,9 +12853,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Protein inside the vessel!",
+                        "容器里有x1 Protein！",
                         "¡Hay x1 Proteina dentro la vasija!",
-                    "容器里有x1 Protein！"
+                    "容器里有x1 攻击增强剂！"
                     ],
                     reward: {
                         item: item.consumable.protein,
@@ -12942,7 +12942,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Umbrella on the ground!",
                         "¡He encontrado x1 Paraguas en el suelo!",
-                    "我在地上找到了x1 Umbrella！"
+                    "我在地上找到了x1 雨伞！"
                     ],
                     reward: {
                         item: item.key.umbrella,
@@ -12976,9 +12976,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM124 Drill Run inside the vessel!",
+                        "容器里有x1 TM124 Drill Run！",
                         "¡Hay x1 MT124 Taladradora dentro la vasija!",
-                    "容器里有x1 TM124 Drill Run！"
+                    "容器里有x1 招式机124 直冲钻！"
                     ],
                     reward: {
                         item: item.tm.tm124,
@@ -13013,9 +13013,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Carbos inside the vessel!",
+                        "容器里有x2 Carbos！",
                         "¡Hay x2 Carburante dentro la vasija!",
-                    "容器里有x2 Carbos！"
+                    "容器里有x2 速度增强剂！"
                     ],
                     reward: {
                         item: item.consumable.carbos,
@@ -13338,7 +13338,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 {
                     text: [
                         "I thought it was a bush... now I have nightmares with it shouting \"¡sudo!\".",
-                        "Creí que era un arbusto... ahora tengo pesadillas con él gritando \"¡sudo!\".",
+                        "我以为那是个灌木丛……现在我噩梦都是它在喊\"¡sudo!\".",
                     "我以为是灌木丛……现在我噩梦都是它喊\"¡sudo!\"。"
                     ],
                 },
@@ -13826,7 +13826,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Your team has been registered in the Hall of Fame.",
                         "Tu equipo ha sido registrado en el Hall de la Fama.",
-                    "Your team has been registered in the 名人堂."
+                    "你的队伍已经登记在名人堂了。"
                     ],
                 },
                 {
@@ -13840,7 +13840,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "The Pokémon League will no longer be available to you.",
                         "La Liga Pokémon ya no estará disponible para ti.",
-                    "The 宝可梦 League will no longer be available to you."
+                    "宝可梦联盟将不再对你开放。"
                     ],
                 },
                 {
@@ -13901,7 +13901,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Hi! I love Bug-type Pokémon.",
                         "¡Hola! Me encantan los Pokémon bicho.",
-                    "Hi! I love 虫系 宝可梦."
+                    "嗨！我喜欢虫系宝可梦。"
                     ],
                 },
                 {
@@ -13920,7 +13920,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this TM as a gift.",
+                        "来，拿着这个TM as a gift。",
                         "Toma, te regalo esta MT.",
                     "给，这个招式学习器送给你。"
                     ],
@@ -13933,7 +13933,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Teach your Pokémon the move String Shot.",
                         "Enseña a tus Pokémon el movimiento Disparo demora.",
-                    "Teach your 宝可梦 the move String Shot."
+                    "教你的宝可梦吐丝招式。"
                     ],
                 },
                 {
@@ -13964,7 +13964,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "It's perfect for gaining an edge over slow Pokémon!",
                         "¡Es ideal para sacar ventaja a Pokémon lentos!",
-                    "It's perfect for gaining an edge over slow 宝可梦!"
+                    "对付慢速宝可梦有奇效！"
                     ],
                 },
                 {
@@ -14020,7 +14020,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 {
                     text: [
                         "Let's say I \"found\".",
-                        'Digamos que "me encontré".',
+                        'Digamos que "我遇到了".',
                         "就当是我“捡到的”吧。",
                     ],
                 },
@@ -14028,7 +14028,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "It's a Pokémon Egg!",
                         "¡Es un huevo Pokémon!",
-                    "It's a 宝可梦 Egg!"
+                    "是宝可梦的蛋！"
                     ],
                 },
                 {
@@ -14147,7 +14147,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "When one of your Pokémon's experience is full, level it up via: MENU -> TEAM -> POKÉMON",
                         "Cuando la experiencia de uno de tus Pokémon llegue a su máximo, sube de nivel desde: MENÚ -> EQUIPO -> POKEMON",
-                    "When one of your 宝可梦's experience is full, level it up via: MENU -> TEAM -> POKÉMON"
+                    "当你的宝可梦经验值满后，通过以下方式升级：菜单 → 队伍 → 宝可梦"
                     ]
                 },
             ]
@@ -14231,7 +14231,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "And also this Union Ticket.",
                         "Y también este Ticket Unión.",
-                    "And also this 联合券."
+                    "还有这张联合券。"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -14256,7 +14256,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Some extremely rare Pokémon roam around here.",
                         "Algunos Pokémon rarísimos se pasean por aquí.",
-                    "Some extremely rare 宝可梦 roam around here."
+                    "这里游荡着一些极其稀有的宝可梦。"
                     ],
                     state: 1
                 },
@@ -14332,7 +14332,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "They look like Pokémon from the adoption center.",
                         "Parecen Pokémon del centro de adopción.",
-                    "They look like 宝可梦 from the adoption center."
+                    "它们看起来像是领养中心的宝可梦。"
                     ],
                 },
                 {
@@ -14353,7 +14353,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                    text: [
                         "Here, take this. It's a Amulet Coin, I found it on the gold sofa of my private jet.",
                         "Toma esto, es una Moneda Amuleto, la encontré en el sofá de oro de mi jet privado.",
-                    "Here, take this. It's a 护身金币, I found it on the gold sofa of my private jet."
+                    "来，拿着这个。这是护身金币，我在私人飞机的金色沙发上找到的。"
                     ],
                     reward: {
                         item: item.key.amuletCoin,
@@ -14367,7 +14367,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "With it, you'll earn double the money in battles against wild Pokémon.",
                         "Con ella, ganarás el doble de dinero en combates contra Pokémon salvajes.",
-                    "With it, you'll earn double the money in battles against wild 宝可梦."
+                    "有了它，你在与野生宝可梦的战斗中可以获得双倍金钱。"
                     ],
                 },
                 {
@@ -14470,7 +14470,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Bring me a Green Apricorn and I'll make sure no current can stop your bike.",
                         "Traéme un Bonguri verde y me encargaré de que no haya corriente que frene tu bici.",
-                    "Bring me a Green 圆柑 and I'll make sure no current can stop your bike."
+                    "给我带来绿色圆柑，我保证没有水流能阻挡你的自行车。"
                     ],
                     state: 1
                 },
@@ -14481,7 +14481,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Bring me a Green Apricorn and I'll make sure no current can stop your bike.",
                         "Traéme un Bonguri verde y me encargaré de que no haya corriente que frene tu bici.",
-                    "Bring me a Green 圆柑 and I'll make sure no current can stop your bike."
+                    "给我带来绿色圆柑，我保证没有水流能阻挡你的自行车。"
                     ],
                 },
                 {
@@ -14489,7 +14489,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You brought me the Green Apricorn!",
                         "¡Me has traído el Bonguri verde!",
-                    "You brought me the Green 圆柑!"
+                    "你带来了绿色圆柑！"
                     ],
                 },
                 {
@@ -14630,7 +14630,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Pokémon give more gold in wild battles than on passing routes!",
                         "¡Los Pokémon otorgan mas oro en combates salvajes que en rutas de paso!",
-                    "宝可梦 give more gold in wild battles than on passing routes!"
+                    "野生宝可梦比路过的路线给更多金币！"
                     ],
                 },
             ]
@@ -14643,9 +14643,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Revive inside the jar!",
+                        "jar里有x1 Revive！",
                         "¡Hay x1 Revivir dentro la vasija!",
-                    "容器里有x1 Revive！"
+                    "容器里有x1 活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -14681,7 +14681,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Did you know that Pokémon have preferred areas within the same route?",
                         "¿Sabías que los Pokémon tienen zonas preferidas en una misma ruta?",
-                    "Did you know that 宝可梦 have preferred areas within the same route?"
+                    "你知道宝可梦在同一条路线里有偏好的区域吗？"
                     ],
                 },
                 {
@@ -14716,21 +14716,21 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Also, many routes have a special Pokémon.",
                         "Además, muchas rutas cuentan con un Pokémon especial.",
-                    "Also, many routes have a special 宝可梦."
+                    "此外，很多路线都有特殊的宝可梦。"
                     ],
                 },
                 {
                     text: [
                         "On this route, that Pokémon is Aipom.",
                         "En esta ruta, ese Pokémon es Aipom.",
-                    "On this route, that 宝可梦 is Aipom."
+                    "在这条路线上，那只宝可梦是Aipom。"
                     ],
                 },
                 {
                     text: [
                         "You could find it anywhere on Route 30.",
                         "Podrías encontrártelo en cualquier parte de la Ruta 30.",
-                    "You could find it anywhere on 30号道路."
+                    "你在30号道路的任何地方都能找到它。"
                     ],
                 },
                 {
@@ -14752,7 +14752,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Hi, I'm Kurt, an expert in Pokémon capture and Pokéball crafting.",
                         "Hola, soy César, experto en la captura de Pókemon y la creación de Pokeball.",
-                    "Hi, I'm Kurt, an expert in 宝可梦 capture and 精灵球 crafting."
+                    "嗨，我是Kurt，宝可梦捕捉和精灵球制作的专家。"
                     ],
                 },
                 {
@@ -14784,56 +14784,56 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Pokéballs are incredible items that attract wild Pokémon to join your team.",
                         "Las Pokeball son objetos increíbles que atraen a los Pokémon salvajes a que se unan a tu equipo.",
-                    "精灵球s are incredible items that attract wild 宝可梦 to join your team."
+                    "精灵球是吸引野生宝可梦加入你队伍的不可思议的道具。"
                     ],
                 },
                 {
                     text: [
                         "Just carrying a Pokéball with you can make a wild Pokémon willing to accept you as a trainer.",
                         "Solo con llevar una Pokéball contigo, un Pokémon salvaje puede sentirse dispuesto a aceptarte como entrenador.",
-                    "Just carrying a 精灵球 with you can make a wild 宝可梦 willing to accept you as a trainer."
+                    "只要随身带着精灵球，野生宝可梦就可能愿意接受你作为训练师。"
                     ],
                 },
                 {
                     text: [
                         "Each type of Pokéball has a multiplier that increases your chances of capturing a Pokémon.",
                         "Cada tipo de Pokéball tiene un multiplicador que aumenta tus posibilidades de capturar un Pokémon.",
-                    "Each type of 精灵球 has a multiplier that increases your chances of capturing a 宝可梦."
+                    "每种精灵球都有一个倍率，可以增加你捕捉宝可梦的几率。"
                     ],
                 },
                 {
                     text: [
                         "The standard Pokéball has a base multiplier of 1.",
                         "La Pokéball común tiene un multiplicador base de 1.",
-                    "The standard 精灵球 has a base multiplier of 1."
+                    "标准精灵球的基础倍率是1。"
                     ],
                 },
                 {
                     text: [
                         "In contrast, the Great Ball raises that value to 1.25.",
                         "En cambio, la Superball aumenta ese valor a 1.25.",
-                    "In contrast, the 超级球 raises that value to 1.25."
+                    "相比之下，超级球将倍率提升到1.25。"
                     ],
                 },
                 {
                     text: [
                         "The better the Pokéball you use, the easier it will be for Pokémon to want to be part of your team.",
                         "Cuanto mejor sea la Pokéball que uses, más fácil será que los Pokémon quieran ser parte de tu equipo.",
-                    "The better the 精灵球 you use, the easier it will be for 宝可梦 to want to be part of your team."
+                    "你用的精灵球越好，宝可梦就越容易愿意加入你的队伍。"
                     ],
                 },
                 {
                     text: [
                         "For example, if a Pokémon has a 5% chance of being caught with a Pokéball, with a Great Ball it goes up to 6.25%.",
                         "Por ejemplo, si un Pokémon tiene un 5% de probabilidad de ser capturado con una Pokéball, con una Superball sube a 6.25%.",
-                    "For example, if a 宝可梦 has a 5% chance of being caught with a 精灵球, with a 超级球 it goes up to 6.25%."
+                    "例如，如果一只宝可梦用精灵球有5%的捕捉几率，用超级球就会提升到6.25%。"
                     ],
                 },
                 {
                     text: [
                         "I specialize in improving Pokéballs, and if I had my tools with me, I could upgrade yours.",
                         "Yo me dedico a mejorar Pokéballs y, si tuviera mis herramientas conmigo, podría mejorar la tuya.",
-                    "I specialize in improving 精灵球s, and if I had my tools with me, I could upgrade yours."
+                    "我专门研究如何改进精灵球，如果我工具在手边，我可以帮你升级你的。"
                     ],
                 },
                 {
@@ -14847,7 +14847,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You can find him on Route 37.",
                         "Puedes encontrarlo en la Ruta 37.",
-                    "You can find him on 37号道路."
+                    "你可以在37号道路找到他。"
                     ],
                     state: 0
                 },
@@ -14857,14 +14857,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Wild Pokémon are attracted to trainers carrying a Pokéball.",
                         "Los Pokémon salvajes se sienten atraídos a entrenadores que portan una Pokéball.",
-                    "Wild 宝可梦 are attracted to trainers carrying a 精灵球."
+                    "野生宝可梦会被携带精灵球的训练师吸引。"
                     ],
                 },
                 {
                     text: [
                         "You already have a Pokéball, so you are eligible for any wild Pokémon to consider joining your team.",
                         "Tú ya tienes una Pokeball, así que eres apto para que cualquier Pokémon salvaje considere unirse a tu equipo.",
-                    "You already have a 精灵球, so you are eligible for any wild 宝可梦 to consider joining your team."
+                    "你已经有一个精灵球了，所以野生宝可梦会考虑加入你的队伍。"
                     ],
                 },
                 {
@@ -14892,28 +14892,28 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "To capture Pokémon, make sure to activate 'Capture Mode' during wild battles.",
                         "Para poder capturar Pokémon, asegúrate de activar el 'Modo Captura' durante los combates salvajes.",
-                    "To capture 宝可梦, make sure to activate '捕获模式' during wild battles."
+                    "要捕捉宝可梦，记得在野生战斗中开启"捕获模式"。"
                     ],
                 },
                 {
                     text: [
                         "If you deactivate it, Pokémon won't try to join you, which can be useful if you prefer training without interruptions.",
                         "Si lo desactivas, los Pokémon no intentarán unirse a ti, lo que puede ser útil si prefieres entrenar sin interrupciones.",
-                    "If you deactivate it, 宝可梦 won't try to join you, which can be useful if you prefer training without interruptions."
+                    "如果你关闭它，宝可梦就不会尝试加入你，如果你不想被打断训练的话这很有用。"
                     ],
                 },
                 {
                     text: [
                         "The chances of capturing a wild Pokémon are quite low, especially if you use a simple Pokéball.",
                         "Las probabilidades de capturar un Pokémon salvaje son bastante bajas, especialmente si usas una simple Pokéball.",
-                    "The chances of capturing a wild 宝可梦 are quite low, especially if you use a simple 精灵球."
+                    "捕捉野生宝可梦的几率相当低，特别是只用普通精灵球的时候。"
                     ],
                 },
                 {
                     text: [
                         "But don't worry! With patience and some luck, you'll surely add some Pokémon to your team.",
                         "¡Pero no te preocupes! Con paciencia y algo de suerte, seguro que conseguirás añadir algunos Pokémon a tu equipo.",
-                    "But don't worry! With patience and some luck, you'll surely add some 宝可梦 to your team."
+                    "不过别担心！只要有耐心和一点运气，你一定能给队伍添几只宝可梦。"
                     ],
                 },
                 {
@@ -14927,14 +14927,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "It's 'Shiny Mode', it's like having it turned off, but if a Shiny Pokémon appears, it will capture it.",
                         "Es el 'Modo Shiny', es como tenerlo desactivado, pero si un Pokémon Variocolor aparece, lo capturará.",
-                    "It's '闪光 Mode', it's like having it turned off, but if a 闪光 宝可梦 appears, it will capture it."
+                    "这是'闪光模式'，就像关闭状态一样，但如果有闪光宝可梦出现，就会捕捉它。"
                     ],
                 },
                 {
                     text: [
                         "You should know that a Shiny Pokémon will always join you, as long as you don't have 'Capture Mode' disabled.",
                         "Has de saber que un Pokémon Variocolor siempre se unirá a ti, mientras no tengas el 'Modo Captura' desactivado.",
-                    "You should know that a 闪光 宝可梦 will always join you, as long as you don't have '捕获模式' disabled."
+                    "你要知道闪光宝可梦总是会加入你，只要你的捕获模式没被禁用。"
                     ],
                 },
                 {
@@ -14951,14 +14951,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Hi, I'm César, an expert in Pokémon capture and Pokéball crafting.",
                         "Hola, soy César, experto en la captura de Pokémon y la creación de Pokéball.",
-                    "Hi, I'm César, an expert in 宝可梦 capture and 精灵球 crafting."
+                    "嗨，我是César，宝可梦捕捉和精灵球制作的专家。"
                     ],
                 },
                 {
                     text: [
                         "Do you already have an Ultra Ball?",
                         "¿Ya tienes una Ultraball?",
-                    "Do you already have an 高级球?"
+                    "你已经有高级球了吗？"
                     ],
                 },
                 {
@@ -14993,7 +14993,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm capable of crafting the legendary Master Ball.",
                         "Soy capaz de fabricar la legendaria Masterball.",
-                    "I'm capable of crafting the legendary 大师球."
+                    "我能制作传说中的大师球。"
                     ],
                 },
                 {
@@ -15028,7 +15028,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Magikarp of a Pokémon League champion.",
                         "El Magikarp de un campeón de la Liga Pokémon.",
-                    "A Magikarp of a 宝可梦 League champion."
+                    "宝可梦联盟冠军的鲤鱼王。"
                     ],
                 },
                 {
@@ -15077,7 +15077,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "With that, I could make you a Master Ball.",
                         "Con eso podría hacerte una Master Ball.",
-                    "With that, I could make you a 大师球."
+                    "有了那个，我就能给你做一个大师球。"
                     ],
                 },
                 {
@@ -15101,7 +15101,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Let me repeat the ingredients needed for the Master Ball:",
                         "Te repito los ingredientes necesarios para la Masterball:",
-                    "Let me repeat the ingredients needed for the 大师球:"
+                    "我再重复一遍制作大师球所需的材料："
                     ],
                 },
                 {
@@ -15138,7 +15138,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Magikarp from a Pokémon League champion.",
                         "Un Magikarp de un campeón de la Liga Pokémon.",
-                    "A Magikarp from a 宝可梦 League champion."
+                    "一只来自宝可梦联盟冠军的鲤鱼王。"
                     ],
                 },
                 {
@@ -15272,7 +15272,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Okay, I'll make you the Master Ball.",
                         "Está bien, te fabricaré la Masterball.",
-                    "Okay, I'll make you the 大师球."
+                    "好的，我给你做大师球。"
                     ],
                 },
                 {
@@ -15320,7 +15320,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I don't know how you did it, but enjoy your Master Ball.",
                         "No sé cómo lo hiciste, pero disfruta de tu Masterball.",
-                    "I don't know how you did it, but enjoy your 大师球."
+                    "我不知道你是怎么做到的，但请享受你的大师球吧。"
                     ],
                 },
             ]
@@ -15350,7 +15350,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Are you trying to complete the Pokédex?",
                         "¿Estás intentando completar la Pokédex?",
-                    "Are you trying to complete the 宝可梦图鉴?"
+                    "你想完成宝可梦图鉴吗？"
                     ],
                 },
                 {
@@ -15371,14 +15371,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I call it: the PokéRadar.",
                         "Yo lo llamo: el Pokéradar.",
-                    "I call it: the 宝可梦Radar."
+                    "我把它叫做：宝可雷达。"
                     ],
                 },
                 {
                     text: [
                         "It scans the tall grass and shows you which wild Pokémon you might find there.",
                         "Escanea la hierba alta y te muestra qué Pokémon salvajes podrías encontrar en ella.",
-                    "It scans the tall grass and shows you which wild 宝可梦 you might find there."
+                    "它会扫描草丛，显示你可能在那里找到哪些野生宝可梦。"
                     ],
                 },
                 {
@@ -15399,7 +15399,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Here, I'm giving you the PokéRadar.",
                         "Ten, te hago entrega del Pokéradar.",
-                    "Here, I'm giving you the 宝可梦Radar."
+                    "来，我把宝可雷达给你。"
                     ],
                     reward: {
                         item: item.key.pokeRadar,
@@ -15410,7 +15410,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Come on, it will help you complete the Pokédex.",
                         "Vamos, te ayudará a completar la Pokédex.",
-                    "Come on, it will help you complete the 宝可梦图鉴."
+                    "来吧，它会帮你完成宝可梦图鉴。"
                     ],
                     state: 1
                 },
@@ -15427,7 +15427,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You already have the PokéRadar, right?",
                         "Ya tienes el Pokéradar, ¿no?",
-                    "You already have the 宝可梦Radar, right?"
+                    "你已经有宝可雷达了吧？"
                     ],
                 },
                 {
@@ -15463,14 +15463,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Hello, trainer! I'm a firefighter, but I also help those starting their Pokémon journey.",
                         "¡Hola, entrenador! Soy bombero, pero también ayudo a los que empiezan su viaje Pokémon.",
-                    "Hello, trainer! I'm a firefighter, but I also help those starting their 宝可梦 journey."
+                    "你好，训练师！我是消防员，但我也帮助刚开始宝可梦之旅的人。"
                     ],
                 },
                 {
                     text: [
                         "When you're far from a Pokémon Center, you have to improvise.",
                         "Cuando estás lejos de un Centro Pokémon, hay que improvisar.",
-                    "When you're far from a 宝可梦 Center, you have to improvise."
+                    "当你远离宝可梦中心时，就得随机应变。"
                     ],
                 },
                 {
@@ -15534,7 +15534,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "House of the Pokémon Master.",
                         "Casa del Señor Pokémon.",
-                    "House of the 宝可梦 Master."
+                    "宝可梦大师之家。"
                     ],
                 },
             ]
@@ -15547,9 +15547,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Union Ticket inside the jar!",
+                        "jar里有x1 Union Ticket！",
                         "¡Hay x1 Ticket Unión dentro la vasija!",
-                    "There is x1 联合券 inside the jar!"
+                    "罐子里有x1 联合券！"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -15600,7 +15600,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text:[
                         "I found x1 TM20 Confusion on the ground!",
                         "¡He encontrado x1 MT20 Confusión en el suelo!",
-                    "我在地上找到了x1 TM20 Confusion！"
+                    "我在地上找到了x1 招式机20（念力）！"
                     ],
                     reward: {
                         item: item.tm.tm20,
@@ -15720,7 +15720,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Max Revive on the ground!",
                         "¡He encontrado x1 Revivir Máximo en el suelo!",
-                    "我在地上找到了x1 Max Revive！"
+                    "我在地上找到了x1 活力块！"
                     ],
                     reward: {
                         item: item.consumable.maxRevive,
@@ -15757,7 +15757,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Respect nature and the rest of the Pokémon.",
                         "Respeta la naturaleza y el descanso de los Pokémon.",
-                    "Respect nature and the rest of the 宝可梦."
+                    "尊重自然和其他宝可梦。"
                     ],
                 },
             ]
@@ -15780,7 +15780,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Pokémon emerges from the tree attracted by the Honey!",
                         "¡Un Pokémon aflora del árbol atraído por la Miel!",
-                    "A 宝可梦 emerges from the tree attracted by the Honey!"
+                    "一只宝可梦被甜甜蜜吸引，从树里出来了！"
                     ],
                 },
                 {
@@ -15858,9 +15858,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Carbos inside the vessel!",
+                        "容器里有x2 Carbos！",
                         "¡Hay x2 Carburante dentro la vasija!",
-                    "容器里有x2 Carbos！"
+                    "容器里有x2 速度增强剂！"
                     ],
                     reward: {
                         item: item.consumable.carbos,
@@ -15894,9 +15894,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x5 Max Revive inside the vessel!",
+                        "容器里有x5 Max Revive！",
                         "¡Hay x5 Revivir Máximo dentro la vasija!",
-                    "容器里有x5 Max Revive！"
+                    "容器里有x5 活力块！"
                     ],
                     reward: {
                         item: item.consumable.maxRevive,
@@ -15933,7 +15933,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Welcome to the Pokémon Clinic.",
                         "Te damos la bienvenida a la Clínica Pokémon.",
-                    "Welcome to the 宝可梦 Clinic."
+                    "欢迎来到宝可梦诊所。"
                     ],
                 },
                 {
@@ -15961,7 +15961,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Once a day, we give trainers a Pokémon Egg.",
                         "Una vez por día, otorgamos a entrenadores un Huevo Pokémon.",
-                    "Once a day, we give trainers a 宝可梦 Egg."
+                    "我们每天给训练师一个宝可梦蛋。"
                     ],
                 },
                 {
@@ -15975,21 +15975,21 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "The only condition is that the trainer must have 6 Pokémon in their team.",
                         "La única condición es que el entrenador debe tener a 6 Pokémon en el equipo.",
-                    "The only condition is that the trainer must have 6 宝可梦 in their team."
+                    "唯一的条件是训练师队伍里必须有6只宝可梦。"
                     ],
                 },
                 {
                     text: [
                         "We use the DNA of each of your Pokémon to generate an altered Pokémon.",
                         "Utilizamos el ADN de cada uno de tus Pokémon para generar un Pokémon alterado.",
-                    "We use the DNA of each of your 宝可梦 to generate an altered 宝可梦."
+                    "我们利用你每只宝可梦的DNA来培育变异宝可梦。"
                     ],
                 },
                 {
                     text: [
                         "From each Pokémon, one of the following attributes will be randomly chosen: Species, IVs, Type 1, Type 2, Nature, and one move.",
                         "De cada Pokémon se escogerá aleatoriamente uno los siguentes atributos: Especie, IVs, Tipo 1, Tipo 2, Naturaleza y un movimiento.",
-                    "From each 宝可梦, one of the following attributes will be randomly chosen: Species, IVs, Type 1, Type 2, Nature, and one move."
+                    "从每只宝可梦身上随机选择以下属性之一：种类、个体值、属性1、属性2、性格和一个招式。"
                     ],
                 },
                 {
@@ -16003,21 +16003,21 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Also, if you have shiny Pokémon on your team...",
                         "Además, si cuentas con Pokémon variocolor en tu equipo...",
-                    "Also, if you have 闪光 宝可梦 on your team..."
+                    "另外，如果你的队伍里有闪光宝可梦..."
                     ],
                 },
                 {
                     text: [
                         "The hatched Pokémon may also be shiny!",
                         "¡El Pokémon que nazca también podrá serlo!",
-                    "The hatched 宝可梦 may also be 闪光!"
+                    "孵化的宝可梦也可能是闪光的！"
                     ],
                 },
                 {
                     text: [
                         "This probability accumulates with every shiny Pokémon you have!",
                         "¡Esta probabilidad es acmumulable por cada Pokémon variocolor que tengas!",
-                    "This probability accumulates with every 闪光 宝可梦 you have!"
+                    "这个概率会随着你拥有的每只闪光宝可梦而累积！"
                     ],
                 },
                 {
@@ -16068,7 +16068,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Sorry, come back when you have 6 Pokémon in your team.",
                         "Lo siento, vuelve cuando tengas 6 Pokémon en tu equipo.",
-                    "Sorry, come back when you have 6 宝可梦 in your team."
+                    "抱歉，等你队伍有6只宝可梦再来吧。"
                     ],
                     state: 0
                 },
@@ -16132,7 +16132,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "There is a Yellow Apricorn inside the basket!",
                         "¡Hay un Bonguri amarillo dentro de la cesta!",
-                    "篮子里有a Yellow Apricorn！"
+                    "篮子里有黄色圆柑！"
                     ],
                     reward: {
                         item: item.key.apricornYellow,
@@ -16161,7 +16161,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x3 Strong Medicine on the ground!",
                         "¡He encontrado x3 Medicina Fuerte en el suelo!",
-                    "我在地上找到了x3 Strong Medicine！"
+                    "我在地上找到了x3 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -16197,7 +16197,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Did you know that if a Pokémon uses a move of the same type as itself, that move becomes stronger?",
                         "¿Sabías que si un Pokémon usa un ataque del mismo tipo que él, ese movimiento es más fuerte?",
-                    "Did you know that if a 宝可梦 uses a move of the same type as itself, that move becomes stronger?"
+                    "你知道吗，如果宝可梦使用与自己同属性的招式，招式会变得更强大？"
                     ],
                 },
                 {
@@ -16218,7 +16218,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "For example, a Water-type move is very effective against a Fire-type Pokémon, dealing 60% more damage.",
                         "Por ejemplo, un ataque de tipo Agua es muy eficaz contra un Pokémon de tipo Fuego, causando un 60% más de daño.",
-                    "For example, a 水系 move is very effective against a 火系 宝可梦, dealing 60% more damage."
+                    "例如，水系招式对火系宝可梦非常有效，能造成60%的额外伤害。"
                     ],
                 },
                 {
@@ -16255,28 +16255,28 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm Jim, a craftsman specialized in creating Pokéballs.",
                         "Soy Jim, artesano especializado en crear Pokéball.",
-                    "我是Jim，a craftsman specialized in creating Pokéballs的道馆馆主。"
+                    "我是Jim，专门制作精灵球的工匠。"
                     ],
                 },
                 {
                     text: [
                         "Did you know Pokéballs can be improved?",
                         "¿Sabías que las Pokéball pueden mejorarse?",
-                    "Did you know 精灵球s can be improved?"
+                    "你知道精灵球可以升级吗？"
                     ],
                 },
                 {
                     text: [
                         "I have the ability to upgrade your Pokéball into a Great Ball.",
                         "Yo tengo la habilidad de convertir tu Pokéball en una Superball.",
-                    "I have the ability to upgrade your 精灵球 into a 超级球."
+                    "我能把你的精灵球升级成超级球。"
                     ],
                 },
                 {
                     text: [
                         "To do it, I only need a Blue Apricorn.",
                         "Para hacerlo, solo necesito un Bonguri azul.",
-                    "To do it, I only need a Blue 圆柑."
+                    "只需要一个蓝色圆柑就行。"
                     ],
                 },
                 {
@@ -16290,21 +16290,21 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "With just a Blue Apricorn, I'll turn your regular Pokéball into a Great Ball.",
                         "Con solo un Bonguri azul, te convertiré tu Pokéball común en una Superball.",
-                    "With just a Blue 圆柑, I'll turn your regular 精灵球 into a 超级球."
+                    "只要一个蓝色圆柑，我就能把你的普通精灵球变成超级球。"
                     ],
                 },
                 {
                     text: [
                         "The Great Ball increases your chances of capturing wild Pokémon.",
                         "La Superball aumenta tus probabilidades de capturar Pokémon salvajes.",
-                    "The 超级球 increases your chances of capturing wild 宝可梦."
+                    "超级球能提高你捕捉野生宝可梦的几率。"
                     ],
                 },
                 {
                     text: [
                         "When you have a Blue Apricorn, bring it to me and let's make your Pokéball stronger.",
                         "Cuando tengas un Bonguri azul tráemelo y hagamos que tu Pokéball sea más poderosa.",
-                    "When you have a Blue 圆柑, bring it to me and let's make your 精灵球 stronger."
+                    "等你有了蓝色圆柑，拿来给我，我们一起把你的精灵球变强。"
                     ],
                     state: 1
                 },
@@ -16321,7 +16321,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Do you already have a Blue Apricorn to upgrade your Pokéball?",
                         "¿Tienes ya un Bonguri azul para mejorar tu Pokéball?",
-                    "Do you already have a Blue 圆柑 to upgrade your 精灵球?"
+                    "你已经有蓝色圆柑来升级精灵球了吗？"
                     ],
                 },
                 {
@@ -16329,7 +16329,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Mmm... No, that's not the Blue Apricorn I asked for.",
                         "Mmm... No, eso no es el Bonguri azul que te pedí.",
-                    "Mmm... No, that's not the Blue 圆柑 I asked for."
+                    "嗯...不，这不是我要的蓝色圆柑。"
                     ],
                 },
                 {
@@ -16337,7 +16337,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I need you to bring me a Blue Apricorn.",
                         "Necesito que me traigas un Bonguri azul.",
-                    "I need you to bring me a Blue 圆柑."
+                    "我需要你给我带来一个蓝色圆柑。"
                     ],
                 },
                 {   
@@ -16345,7 +16345,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've brought the Blue Apricorn!",
                         "¡Has traído el Bonguri azul!",
-                    "You've brought the Blue 圆柑!"
+                    "你带来了蓝色圆柑！"
                     ],
                 },
                 {   
@@ -16353,7 +16353,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Give me that rusty Pokéball, let's give it some love...",
                         "Dame esa Pokéball roñosa, vamos a darle un poco de cariño...",
-                    "Give me that rusty 精灵球, let's give it some love..."
+                    "把那个生锈的精灵球给我，我们给它点爱..."
                     ],
                 },
                 {   
@@ -16361,7 +16361,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Done! Your Pokéball is now a Great Ball.",
                         "¡Ya está! Tu Pokéball es ahora una Superball.",
-                    "Done! Your 精灵球 is now a 超级球."
+                    "搞定！你的精灵球现在是超级球了。"
                     ],
                     cb: () => {
                         playSound('obtain', 'ui')
@@ -16386,14 +16386,14 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Want to upgrade your Great Ball?",
                         "¿Quieres mejorar tu Superball?.",
-                    "Want to upgrade your 超级球?"
+                    "想升级你的超级球吗？"
                     ],
                 },
                 {
                     text: [
                         "Bring me a Yellow Apricorn and I'll turn your Great Ball into an Ultra Ball.",
                         "Traéme un Bonguri amarillo y modificaré tu Superball en una Ultraball.",
-                    "Bring me a Yellow 圆柑 and I'll turn your 超级球 into an 高级球."
+                    "给我一个黄色圆柑，我把你的超级球升级成高级球。"
                     ],
                     state: 3
                 },
@@ -16410,7 +16410,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Do you have a Yellow Apricorn to upgrade your Great Ball?",
                         "¿Tienes ya un Bonguri amarillo para mejorar tu Superball?",
-                    "Do you have a Yellow 圆柑 to upgrade your 超级球?"
+                    "你有黄色圆柑来升级超级球吗？"
                     ],
                 },
                 {
@@ -16418,7 +16418,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                      text: [
                         "That's not the Yellow Apricorn I asked for...",
                         "Eso no es el Bonguri amarillo que te pedí...",
-                    "That's not the Yellow 圆柑 I asked for..."
+                    "这不是我要的黄色圆柑..."
                     ],
                 },
                 {
@@ -16426,7 +16426,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I need you to bring me a Yellow Apricorn.",
                         "Necesito que me traigas un Bonguri amarillo.",
-                    "I need you to bring me a Yellow 圆柑."
+                    "我需要你给我带来一个黄色圆柑。"
                     ],
                 },
                 {   
@@ -16434,7 +16434,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You brought the Yellow Apricorn!",
                         "¡Has traído el Bonguri amarillo!",
-                    "You brought the Yellow 圆柑!"
+                    "你带来了黄色圆柑！"
                     ],
                 },
                 {   
@@ -16442,7 +16442,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Give me that rusty Great Ball, let's give it some love...",
                         "Dame esa Superball roñosa, vamos a darle un poco de cariño...",
-                    "Give me that rusty 超级球, let's give it some love..."
+                    "把那个生锈的超级球给我，我们给它点爱..."
                     ],
                 },
                 {   
@@ -16450,7 +16450,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Done! Your Great Ball is now an Ultra Ball.",
                         "¡Ya está! Tu Superball es ahora una Ultraball.",
-                    "Done! Your 超级球 is now an 高级球."
+                    "搞定！你的超级球现在是高级球了。"
                     ],
                     cb: () => {
                         playSound('obtain', 'ui');
@@ -16476,7 +16476,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Are you here to upgrade your Ultra Ball?",
                         "¿Vienes a mejorar tu Ultraball?",
-                    "Are you here to upgrade your 高级球?"
+                    "你是来升级高级球的吗？"
                     ],
                 },
                 {
@@ -16490,7 +16490,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Something better than an Ultra Ball is beyond my knowledge.",
                         "Algo superior de una Ultraball se escapa de mis conocimientos.",
-                    "Something better than an 高级球 is beyond my knowledge."
+                    "比高级球更好的东西超出了我的知识范围。"
                     ],
                 },
                 {
@@ -16510,7 +16510,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Maybe my father could help you improve your Ultra Ball.",
                         "Quizá mi padre podría ayudarte a mejorar tu Ultraball.",
-                    "Maybe my father could help you improve your 高级球."
+                    "或许我父亲能帮你升级高级球。"
                     ],
                 },
             ],
@@ -16538,9 +16538,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Strong Medicine inside the vessel!",
+                        "容器里有x1 Strong Medicine！",
                         "¡Hay x1 Medicina Fuerte dentro la vasija!",
-                    "容器里有x1 Strong Medicine！"
+                    "容器里有x1 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -16574,9 +16574,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Thunder Stone inside the vessel!",
+                        "容器里有x1 Thunder Stone！",
                         "¡Hay x1 Piedra Trueno dentro la vasija!",
-                    "容器里有x1 Thunder Stone！"
+                    "容器里有x1 雷之石！"
                     ],
                     reward: {
                         item: item.consumable.thunderStone,
@@ -16610,9 +16610,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Rare Candy inside the vessel!",
+                        "容器里有x2 Rare Candy！",
                         "¡Hay x2 Carameloraro dentro la vasija!",
-                    "容器里有x2 Rare Candy！"
+                    "容器里有x2 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -16646,9 +16646,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There are x3 Revive inside the vessel!",
+                        "容器里有x3 Revive！",
                         "¡Hay x3 Revivir dentro la vasija!",
-                    "容器里有x3 Revive！"
+                    "容器里有x3 活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -16684,7 +16684,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM80 Mega Drain on the ground!",
                         "¡He encontrado x1 MT80 Megaagotar en el suelo!",
-                    "我在地上找到了x1 TM80 Mega Drain！"
+                    "我在地上找到了x1 招式机80（超级吸取）！"
                     ],
                     reward: {
                         item: item.tm.tm80,
@@ -16734,9 +16734,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x4 Strong Medicine inside the vessel!",
+                        "容器里有x4 Strong Medicine！",
                         "¡Hay x4 Medicina Fuerte dentro la vasija!",
-                    "容器里有x4 Strong Medicine！"
+                    "容器里有x4 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -16770,9 +16770,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There is x1 Electric Core Key inside the vessel!",
+                        "容器里有x1 Electric Core Key！",
                         "¡Hay x1 Llave Central Eléctrica dentro la vasija!",
-                    "容器里有x1 Electric Core Key！"
+                    "容器里有x1 电核钥匙！"
                     ],
                     reward: {
                         item: item.key.key2,
@@ -16809,7 +16809,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM58 Magnet Bomb on the ground!",
                         "¡He encontrado x1 MT58 Bomba imán en el suelo!",
-                    "我在地上找到了x1 TM58 Magnet Bomb！"
+                    "我在地上找到了x1 招式机58（磁铁炸弹）！"
                     ],
                     reward: {
                         item: item.tm.tm58,
@@ -16843,9 +16843,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Jolly Mint inside the vessel!",
+                        "容器里有x1 Jolly Mint！",
                         "¡Hay x1 Menta alegre dentro la vasija!",
-                    "容器里有x1 Jolly Mint！"
+                    "容器里有x1 爽朗薄荷！"
                     ],
                     reward: {
                         item: item.consumable.jollyMint,
@@ -16898,7 +16898,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Attention! <br>Be careful with baby Pokémon!",
                         "¡Atención! <br>¡Se cuidadoso con los Pokémon bebés!",
-                    "Attention! <br>Be careful with baby 宝可梦!"
+                    "注意！<br>小心幼年宝可梦！"
                     ],
                 },
             ]
@@ -16978,7 +16978,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "So, take these six Revives!",
                         "Por eso, ¡toma estos seis revivir!",
-                    "So, take these six 活力碎片s!"
+                    "那么，拿着这六个活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -17033,7 +17033,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this TM, I'm sure your Mr. Mime knows how to use it.",
                         "Toma esta MT, seguro que tu Mr. Mime sabe usarla.",
-                    "拿着这个TM, I'm sure your Mr. Mime knows how to use it。"
+                    "拿着这个招式机，我相信你的魔墙人偶知道怎么用它。"
                     ],
                     reward: {
                         item: item.tm.tm133,
@@ -17071,7 +17071,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x2 Zinc on the ground!",
                         "¡He encontrado x2 Zinc en el suelo!",
-                    "我在地上找到了x2 Zinc！"
+                    "我在地上找到了x2 特防增强剂！"
                     ],
                     reward: {
                         item: item.consumable.zinc,
@@ -17105,9 +17105,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There is x1 Lithic Stone inside the vessel!",
+                        "容器里有x1 Lithic Stone！",
                         "¡Hay x1 Piedra Lítica dentro la vasija!",
-                    "容器里有x1 Lithic Stone！"
+                    "容器里有x1 石之石！"
                     ],
                     reward: {
                         item: item.key.lithicStone,
@@ -17183,7 +17183,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Pokémon suddenly attacks!",
                         "¡Un Pokémon ataca de repente!",
-                    "A 宝可梦 suddenly attacks!"
+                    "一只宝可梦突然袭来！"
                     ],
                 },
                 {
@@ -17325,7 +17325,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Gyarados Egg!",
                         "¡Has obtenido un Huevo Gyarados!",
-                    "你获得了a Gyarados Egg！"
+                    "你获得了a 暴鲤龙蛋！"
                     ],
                     reward: {
                         item: item.consumable.gyaradosEgg,
@@ -17388,9 +17388,9 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "There is x1 Lithic Stone inside the box!",
+                        "box里有x1 Lithic Stone！",
                         "¡Hay x1 Piedra Lítica dentro la caja!",
-                    "There is x1 石碑碎片 inside the box!"
+                    "盒子里有x1 石碑碎片！"
                     ],
                     reward: {
                         item: item.key.lithicStone,
@@ -17552,7 +17552,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM156 Rage Fist on the ground!",
                         "¡He encontrado x1 MT156 Puño furia en el suelo!",
-                    "我在地上找到了x1 TM156 Rage Fist！"
+                    "我在地上找到了x1 招式机156（愤怒之拳）！"
                     ],
                     reward: {
                         item: item.tm.tm156,
@@ -17758,7 +17758,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM113 Dragon Breath on the ground!",
                         "¡He encontrado x1 MT113 Dragoaliento en el suelo!",
-                    "我在地上找到了x1 TM113 Dragon Breath！"
+                    "我在地上找到了x1 招式机113（龙息）！"
                     ],
                     reward: {
                         item: item.tm.tm113,
@@ -17875,7 +17875,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 {
                     text: [
                         "Operation \"Psychic Redemption\" has failed.",
-                        "La operación \"Redención Psíquica\" ha fracasado.",
+                        "行动\"Redención Psíquica\" ha fracasado.",
                     "\"精神救赎\"行动失败了。"
                     ]
 
@@ -17949,7 +17949,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Once the giant Magnemite fully synchronizes with the Pokédex Network, it will take total control of the region.",
                         "Cuando el Magnemite gigante se sincronice completamente con la Red Pokédex, tomará el control total de la región.",
-                    "Once the giant Magnemite fully synchronizes with the 宝可梦图鉴 Network, it will take total control of the region."
+                    "一旦巨型小磁怪与宝可梦图鉴网络完全同步，它将完全控制整个地区。"
                     ]
                 },
                 {
@@ -17984,9 +17984,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Transumtation Flask inside the vessel!",
+                        "容器里有x1 Transumtation Flask！",
                         "¡Hay x1 Frasco Alteración dentro la vasija!",
-                    "容器里有x1 Transumtation Flask！"
+                    "容器里有x1 转化烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.transmutationFlask,
@@ -18423,7 +18423,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "My Pokémon may seem soft, slow... even funny.",
                         "Mis Pokémon pueden parecer blanditos, lentos... incluso graciosos.",
-                    "My 宝可梦 may seem soft, slow... even funny."
+                    "我的宝可梦可能看起来软弱、缓慢...甚至可笑。"
                     ]
                 },
                 {
@@ -18591,7 +18591,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I'm a long-distance runner, I spend the day crossing routes... and dodging Pokémon like they're cones!",
                         "Soy corredor de fondo, me paso el día cruzando rutas... ¡y esquivando Pokémon como si fueran conos!",
-                    "I'm a long-distance runner, I spend the day crossing routes... and dodging 宝可梦 like they're cones!"
+                    "我是一名长跑运动员，整天穿越道路……像躲路障一样躲避宝可梦！"
                     ]
                 },
                 {
@@ -18640,7 +18640,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Be careful, some Pokémon take jogging as a personal challenge.",
                         "Ten cuidado, algunos Pokémon se toman el jogging como un reto personal.",
-                    "Be careful, some 宝可梦 take jogging as a personal challenge."
+                    "小心点，有些宝可梦把慢跑视为个人挑战。"
                     ]
                 }
             ]
@@ -18670,9 +18670,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There are x4 Strong Medicine inside the vessel!",
+                        "容器里有x4 Strong Medicine！",
                         "¡Hay x4 Medicina Fuerte dentro la vasija!",
-                    "容器里有x4 Strong Medicine！"
+                    "容器里有x4 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -18706,9 +18706,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Green Apricorn inside the vessel!",
+                        "容器里有x1 Green Apricorn！",
                         "¡Hay x1 Bonguri Verde dentro la vasija!",
-                    "容器里有x1 Green Apricorn！"
+                    "容器里有x1 绿色圆柑！"
                     ],
                     reward: {
                         item: item.key.apricornGreen,
@@ -18742,9 +18742,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Naughty Mint inside the vessel!",
+                        "容器里有x1 Naughty Mint！",
                         "¡Hay x1 Menta pícara dentro la vasija!",
-                    "容器里有x1 Naughty Mint！"
+                    "容器里有x1 顽皮薄荷！"
                     ],
                     reward: {
                         item: item.consumable.naughtyMint,
@@ -18778,9 +18778,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Revive inside the vessel!",
+                        "容器里有x3 Revive！",
                         "¡Hay x3 Revivir dentro la vasija!",
-                    "容器里有x3 Revive！"
+                    "容器里有x3 活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -18839,7 +18839,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "If you're looking for the Safari Zone, follow the path north.",
                         "Si buscas la Zona Safari, sigue el sendero hacia el norte.",
-                    "If you're looking for the 狩猎地带, follow the path north."
+                    "如果你在找狩猎地带，沿着北边的路走。"
                     ]
                 },
                 {
@@ -18853,7 +18853,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Inside, you can find more than 50 different Pokémon species.",
                         "Allí dentro podrás encontrar más de 50 especies distintas de Pokémon.",
-                    "Inside, you can find more than 50 different 宝可梦 species."
+                    "在里面，你可以找到超过50种不同的宝可梦。"
                     ]
                 },
                  {
@@ -18949,7 +18949,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "With just 500 coins, you can enter, battle, and catch as long as you have Pokémon available.",
                         "Con solo 500 monedas puedes entrar, combatir y capturar mientras te queden Pokémon disponibles.",
-                    "With just 500 coins, you can enter, battle, and catch as long as you have 宝可梦 available."
+                    "只需500代币，你就可以进入、战斗、捕捉，只要你有可用的宝可梦。"
                     ]
                 },
                 {
@@ -20884,7 +20884,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "To return to your region, you will need five Lithic Stones",
                         "Para volver a tu región, vas a necesitar cinco Piedras Líticas.",
-                    "To return to your region, you will need five 石碑碎片s"
+                    "要回到你的地区，你需要五块石碑碎片"
                     ],
                 },
                 {   
@@ -20958,7 +20958,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You'll need a Pokémon to defend yourself...",
                         "Necesitarás un Pokémon para defenderte...",
-                    "You'll need a 宝可梦 to defend yourself..."
+                    "你需要一只宝可梦来保护自己..."
                     ],        
                 },         
                 {
@@ -21112,7 +21112,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM5 Quick Attack on the ground!",
                         "¡He encontrado x1 MT5 Ataque rápido en el suelo!",
-                    "我在地上找到了x1 TM5 Quick Attack！"
+                    "我在地上找到了x1 招式机5（电光一闪）！"
                     ],
                     reward: {
                         item: item.tm.tm5,
@@ -21146,9 +21146,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Medicine inside the vessel!",
+                        "容器里有x2 Medicine！",
                         "¡Hay x2 Medicina dentro la vasija!",
-                    "容器里有x2 Medicine！"
+                    "容器里有x2 伤药！"
                     ],
                     reward: {
                         item: item.consumable.medicine,
@@ -21272,9 +21272,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Rare Candy inside the vessel!",
+                        "容器里有x1 Rare Candy！",
                         "¡Hay x1 Carameloraro dentro de la vasija!",
-                    "容器里有x1 Rare Candy！"
+                    "容器里有x1 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -21308,9 +21308,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Lax Mint inside the vessel!",
+                        "容器里有x1 Lax Mint！",
                         "¡Hay x1 Menta floja dentro de la vasija!",
-                    "容器里有x1 Lax Mint！"
+                    "容器里有x1 悠闲薄荷！"
                     ],
                     reward: {
                         item: item.consumable.laxMint,
@@ -21344,7 +21344,7 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There is x1 HP Up inside the vessel!",
+                        "容器里有x1 HP Up！",
                         "¡Hay x1 Más PS dentro la vasija!",
                     "容器里有x1 HP Up！"
                     ],
@@ -21395,9 +21395,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Union Ticket inside the jar!",
+                        "jar里有x1 Union Ticket！",
                         "¡Hay x1 Ticket Unión dentro la vasija!",
-                    "There is x1 联合券 inside the jar!"
+                    "罐子里有x1 联合券！"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -21433,7 +21433,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x2 Zinc on the ground!",
                         "¡He encontrado x2 Zinc en el suelo!",
-                    "我在地上找到了x2 Zinc！"
+                    "我在地上找到了x2 特防增强剂！"
                     ],
                     reward: {
                         item: item.consumable.zinc,
@@ -21469,7 +21469,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM109 Comet Punch on the ground!",
                         "¡He encontrado x1 MT109 Puño cometa en el suelo!",
-                    "我在地上找到了x1 TM109 Comet Punch！"
+                    "我在地上找到了x1 招式机109（连续拳）！"
                     ],
                     reward: {
                         item: item.tm.tm109,
@@ -21503,9 +21503,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Rare Candy inside the vessel!",
+                        "容器里有x2 Rare Candy！",
                         "¡Hay x2 Carameloraro dentro de la vasija!",
-                    "容器里有x2 Rare Candy！"
+                    "容器里有x2 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -21578,7 +21578,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                    text: [
                         "They use illegal Pokémon, and nobody does anything.",
                         "Usan Pokémon ilegales, y nadie hace nada.",
-                    "They use illegal 宝可梦, and nobody does anything."
+                    "他们使用非法宝可梦，却没人管。"
                     ],
                 },
                 {
@@ -21649,7 +21649,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "The following Pokémon are not allowed for challengers: Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys,",
                         "Los siguientes Pokémon no están permitidos para los aspirantes: Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys, ",
-                    "The following 宝可梦 are not allowed for challengers: Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys,"
+                    "以下宝可梦不允许挑战者使用：Mewtwo, Lugia, Ho-Oh, Kyogre, Groudon, Rayquaza, Deoxys,"
                     ]
                 },
                 {
@@ -21737,9 +21737,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Medicine Strong inside the vessel!",
+                        "容器里有x3 Medicine Strong！",
                         "¡Hay x3 Medicina Fuerte dentro de la vasija!",
-                    "容器里有x3 Medicine Strong！"
+                    "容器里有x3 强效伤药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -21773,9 +21773,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Love sweet inside the vessel!",
+                        "容器里有x1 爱心甜点！",
                         "¡Hay x1 Conf. corazón dentro de la vasija!",
-                    "容器里有x1 Love sweet！"
+                    "容器里有x1 爱心甜点！"
                     ],
                     reward: {
                         item: item.consumable.loveSweet,
@@ -21839,9 +21839,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Gentle Mint inside the vessel!",
+                        "容器里有x1 Gentle Mint！",
                         "¡Hay x1 Menta amable dentro de la vasija!",
-                    "容器里有x1 Gentle Mint！"
+                    "容器里有x1 温顺薄荷！"
                     ],
                     reward: {
                         item: item.consumable.gentleMint,
@@ -21875,9 +21875,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Rare Candy inside the vessel!",
+                        "容器里有x1 Rare Candy！",
                         "¡Hay x1 Carameloraro dentro de la vasija!",
-                    "容器里有x1 Rare Candy！"
+                    "容器里有x1 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -21911,9 +21911,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Protein inside the vessel!",
+                        "容器里有x1 Protein！",
                         "¡Hay x1 Proteina dentro de la vasija!",
-                    "容器里有x1 Protein！"
+                    "容器里有x1 攻击增强剂！"
                     ],
                     reward: {
                         item: item.consumable.protein,
@@ -21954,9 +21954,9 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                    text: [
-                        "Here, take this Fire Stone.",
+                        "来，拿着这个Fire Stone。",
                         "Toma esta Piedra Fuego.",
-                    "Here, take this 火之石."
+                    "来，拿着这个火之石。"
                     ]
                 },
                 {
@@ -22130,7 +22130,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this TM, I crafted it for the day I'd meet him.",
                         "Toma esta MT, la hice para el día en que lo viera.",
-                    "拿着这个TM, I crafted it for the day I'd meet him。"
+                    "拿着这个招式机，这是为了遇见他的那一天而做的。"
                     ]
                 },
                 {
@@ -22195,9 +22195,9 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this Revive.",
+                        "来，拿着这个Revive。",
                         "Toma este Revivir.",
-                    "Here, take this 活力碎片."
+                    "来，拿着这个活力碎片。"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -22240,7 +22240,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM149 Pursuit on the ground!",
                         "¡He encontrado x1 MT149 Persecución en el suelo!",
-                    "我在地上找到了x1 TM149 Pursuit！"
+                    "我在地上找到了x1 招式机149（追打）！"
                     ],
                     reward: {
                         item: item.tm.tm149,
@@ -22274,9 +22274,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Rare Candy inside the vessel!",
+                        "容器里有x3 Rare Candy！",
                         "¡Hay x3 Carameloraro dentro la vasija!",
-                    "容器里有x3 Rare Candy！"
+                    "容器里有x3 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -22310,9 +22310,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Adamant Mint inside the vessel!",
+                        "容器里有x1 Adamant Mint！",
                         "¡Hay x1 Menta firme dentro la vasija!",
-                    "容器里有x1 Adamant Mint！"
+                    "容器里有x1 固执薄荷！"
                     ],
                     reward: {
                         item: item.consumable.adamantMint,
@@ -22346,9 +22346,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Carbos inside the vessel!",
+                        "容器里有x2 Carbos！",
                         "¡Hay x2 Carburante dentro la vasija!",
-                    "容器里有x2 Carbos！"
+                    "容器里有x2 速度增强剂！"
                     ],
                     reward: {
                         item: item.consumable.carbos,
@@ -22416,7 +22416,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Ghost Disc on the ground!",
                         "¡He encontrado x1 Disco Fantasma en el suelo!",
-                    "我在地上找到了x1 Ghost Disc！"
+                    "我在地上找到了x1 幽灵光盘！"
                     ],
                     reward: {
                         item: item.consumable.ghostDisc,
@@ -22450,9 +22450,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Shiny Flask inside the vessel!",
+                        "容器里有x1 Shiny Flask！",
                         "¡Hay x1 Frasco Variocolor dentro la vasija!",
-                    "容器里有x1 Shiny Flask！"
+                    "容器里有x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -22517,7 +22517,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Pokémon bursts furiously out of the meteorite!",
                         "¡Un Pokémon sale con furia de dentro el meteorito!",
-                    "A 宝可梦 bursts furiously out of the meteorite!"
+                    "一只宝可梦愤怒地从陨石中冲了出来！"
                     ],
                 },
                 {
@@ -22607,9 +22607,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Max Revive inside the vessel!",
+                        "容器里有x1 Max Revive！",
                         "¡Hay x1 Revivir Máximo dentro la vasija!",
-                    "容器里有x1 Max Revive！"
+                    "容器里有x1 活力块！"
                     ],
                     reward: {
                         item: item.consumable.maxRevive,
@@ -22644,9 +22644,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM159 Chilling Water inside the vessel!",
+                        "容器里有x1 TM159 Chilling Water！",
                         "¡Hay x1 MT159 Agua fría la vasija!",
-                    "容器里有x1 TM159 Chilling Water！"
+                    "容器里有x1 招式机159 冷水！"
                     ],
                     reward: {
                         item: item.tm.tm159,
@@ -22682,7 +22682,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM155 Fire Spin on the ground!",
                         "¡He encontrado x1 MT155 Giro fuego en el suelo!",
-                    "我在地上找到了x1 TM155 Fire Spin！"
+                    "我在地上找到了x1 招式机155（火焰旋涡）！"
                     ],
                     reward: {
                         item: item.tm.tm155,
@@ -22755,7 +22755,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Take this TM161 Rock Smash.",
                         "Toma la MT161 Golpe Roca.",
-                    "拿着这个TM161 Rock Smash。"
+                    "拿着这个招式机161 碎岩。"
                     ],
                      reward: {
                         item: item.tm.tm161,
@@ -22901,7 +22901,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I wanted my Pokémon to forget a move, just one move!",
                         "¡Solo quería que mi Pokémon olvidara un ataque, uno solo!",
-                    "I wanted my 宝可梦 to forget a move, just one move!"
+                    "我只想让我的宝可梦忘掉一个招式，就一个！"
                     ]
                 },
                 {
@@ -22959,7 +22959,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "When used on a suitable Pokémon, it learns a random Fire-type move.",
                         "Al utilizarlo en un Pokémon apto, este aprende movimiento de tipo Fuego al azar.",
-                    "When used on a suitable 宝可梦, it learns a random 火系 move."
+                    "用在合适的宝可梦身上，它会学会一个随机火系招式。"
                     ]
                 },
                 {
@@ -22994,7 +22994,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Keep in mind that its power is limited, don't expect your Pokémon to learn Fire Blast.",
                         "Ten en cuenta que su poder es limitado, no esperes que tu pokemon aprenda Llamarada.",
-                    "Keep in mind that its power is limited, don't expect your 宝可梦 to learn Fire Blast."
+                    "记住它的力量有限，别指望你的宝可梦学会大字爆炎。"
                     ]
                 }
             ]
@@ -23007,9 +23007,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text:  [
-                        "There are x2 Strong Medicine inside the vessel!",
+                        "容器里有x2 Strong Medicine！",
                         "¡Hay x2 Medicina Fuerte dentro la vasija!",
-                    "容器里有x2 Strong Medicine！"
+                    "容器里有x2 强力药！"
                     ],
                     reward: {
                         item: item.consumable.medicineStrong,
@@ -23043,9 +23043,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 TM26 Leech Life inside the vessel!",
+                        "容器里有x1 TM26 Leech Life！",
                         "¡Hay x1 TM26 Chupavidas dentro la vasija!",
-                    "容器里有x1 TM26 Leech Life！"
+                    "容器里有x1 招式机26 吸血！"
                     ],
                     reward: {
                         item: item.tm.tm26,
@@ -23079,9 +23079,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 TM62 Icy Wind inside the vessel!",
+                        "容器里有x1 TM62 Icy Wind！",
                         "¡Hay x1 TM62 Viento hielo dentro la vasija!",
-                    "容器里有x1 TM62 Icy Wind！"
+                    "容器里有x1 招式机62 冰冻之风！"
                     ],
                     reward: {
                         item: item.tm.tm62,
@@ -23115,9 +23115,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Hasty Mint inside the vessel!",
+                        "容器里有x1 Hasty Mint！",
                         "¡Hay x1 Menta activa dentro la vasija!",
-                    "容器里有x1 Hasty Mint！"
+                    "容器里有x1 急躁薄荷！"
                     ],
                     reward: {
                         item: item.consumable.hastyMint,
@@ -23151,9 +23151,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 TM81 Payback inside the vessel!",
+                        "容器里有x1 TM81 Payback！",
                         "¡Hay x1 MT81 Vendetta dentro la vasija!",
-                    "容器里有x1 TM81 Payback！"
+                    "容器里有x1 招式机81 以牙还牙！"
                     ],
                     reward: {
                         item: item.tm.tm81,
@@ -23187,9 +23187,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Revive inside the vessel!",
+                        "容器里有x1 Revive！",
                         "¡Hay x1 Revivir dentro la vasija!",
-                    "容器里有x1 Revive！"
+                    "容器里有x1 活力碎片！"
                     ],
                     reward: {
                         item: item.consumable.revive,
@@ -23223,9 +23223,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Medicine inside the vessel!",
+                        "容器里有x2 Medicine！",
                         "¡Hay x2 Medicina dentro la vasija!",
-                    "容器里有x2 Medicine！"
+                    "容器里有x2 伤药！"
                     ],
                     reward: {
                         item: item.consumable.medicine,
@@ -23259,9 +23259,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Protein inside the vessel!",
+                        "容器里有x1 Protein！",
                         "¡Hay x1 Proteina dentro la vasija!",
-                    "容器里有x1 Protein！"
+                    "容器里有x1 攻击增强剂！"
                     ],
                     reward: {
                         item: item.consumable.protein,
@@ -23295,9 +23295,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Rare Candy inside the vessel!",
+                        "容器里有x1 Rare Candy！",
                         "¡Hay x1 Carameloraro dentro la vasija!",
-                    "容器里有x1 Rare Candy！"
+                    "容器里有x1 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -23333,7 +23333,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Transumtation Flask on the ground!",
                         "¡He encontrado x1 Frasco Alteración en el suelo!",
-                    "我在地上找到了x1 Transumtation Flask！"
+                    "我在地上找到了x1 转化烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.transmutationFlask,
@@ -23487,7 +23487,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Union ticket on the ground!",
                         "¡He encontrado x1 Ticket Unión en el suelo!",
-                    "我在地上找到了x1 Union ticket！"
+                    "我在地上找到了x1 联合券！"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -23521,9 +23521,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Medicine inside the vessel!",
+                        "容器里有x3 Medicine！",
                         "¡Hay x3 Medicina dentro la vasija!",
-                    "容器里有x3 Medicine！"
+                    "容器里有x3 伤药！"
                     ],
                     reward: {
                         item: item.consumable.medicine,
@@ -23557,9 +23557,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Bug Disc inside the vessel!",
+                        "容器里有x1 Bug Disc！",
                         "¡Hay x1 Disco Bicho dentro la vasija!",
-                    "容器里有x1 Bug Disc！"
+                    "容器里有x1 虫之光盘！"
                     ],
                     reward: {
                         item: item.consumable.bugDisc,
@@ -23816,7 +23816,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Whoa, you've got a Water-type with you?",
                         "¡Vaya, llevas un Pokémon de tipo Agua!",
-                    "Whoa, you've got a 水系 with you?"
+                    "哇哦，你身上有只水系宝可梦？"
                     ]
                 },
                 {
@@ -23854,7 +23854,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 {
                     condition: () => main.team.isTypeInTeam('water'),
                     text: [
-                        "Here, take this Water Disc.",
+                        "来，拿着这个Water Disc。",
                         "Toma este Disco Agua.",
                     "给，拿着这个水碟。"
                     ],
@@ -23988,7 +23988,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM70 Feint Attack on the ground!",
                         "¡He encontrado x1 MT70 Finta en el suelo!",
-                    "我在地上找到了x1 TM70 Feint Attack！"
+                    "我在地上找到了x1 招式机70（暗算）！"
                     ],
                     reward: {
                         item: item.tm.tm70,
@@ -24022,9 +24022,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                  {
                     text: [
-                        "There is x1 Root Fossil inside the vessel!",
+                        "容器里有x1 根部化石！",
                         "¡Hay x1 Fósil Raíz dentro la vasija!",
-                    "容器里有x1 Root Fossil！"
+                    "容器里有x1 根部化石！"
                     ],
                     reward: {
                         item: item.key.fossilRoot,
@@ -24058,9 +24058,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM128 Ancient Power inside the vessel!",
+                        "容器里有x1 TM128 Ancient Power！",
                         "¡Hay x1 TM128 Poder pasado dentro la vasija!",
-                    "容器里有x1 TM128 Ancient Power！"
+                    "容器里有x1 招式机128 原始之力！"
                     ],
                     reward: {
                         item: item.tm.tm128,
@@ -24094,9 +24094,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Claw Fossil inside the vessel!",
+                        "容器里有x1 爪子化石！",
                         "¡Hay x1 Fósil Garra dentro la vasija!",
-                    "容器里有x1 Claw Fossil！"
+                    "容器里有x1 爪子化石！"
                     ],
                     reward: {
                         item: item.key.fossilClaw,
@@ -24130,9 +24130,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x6 Super Exp. Candy inside the vessel!",
+                        "容器里有x6 Super Exp. Candy！",
                         "¡Hay x6 Super Caramelo Exp. dentro la vasija!",
-                    "容器里有x6 Super Exp. Candy！"
+                    "容器里有x6 超级经验糖果！"
                     ],
                     reward: {
                         item: item.consumable.superExpCandy,
@@ -24181,9 +24181,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Union Ticket inside the jar!",
+                        "jar里有x2 Union Ticket！",
                         "¡Hay x2 Ticket Unión dentro la vasija!",
-                    "There are x2 联合券 inside the jar!"
+                    "罐子里有x2 联合券！"
                     ],
                     reward: {
                         item: item.key.unionTicket,
@@ -24219,7 +24219,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Shiny Flask on the ground!",
                         "¡He encontrado x1 Frasco Variocolor en el suelo!",
-                    "我在地上找到了x1 Shiny Flask！"
+                    "我在地上找到了x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -24368,7 +24368,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "A Pokémon suddenly attacks!",
                         "¡Un Pokémon ataca de repente!",
-                    "A 宝可梦 suddenly attacks!"
+                    "一只宝可梦突然袭来！"
                     ],
                 },
                 {
@@ -24477,7 +24477,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Salamenence Egg!",
                         "¡Has obtenido un Huevo Salamenence!",
-                    "你获得了a Salamenence Egg！"
+                    "你获得了暴飞龙的蛋！"
                     ],
                     reward: {
                         item: item.consumable.salamenceEgg,
@@ -24545,7 +24545,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Regirock Egg!",
                         "¡Has obtenido un Huevo Regirock!",
-                    "你获得了a Regirock Egg！"
+                    "你获得了雷吉洛克的蛋！"
                     ],
                     reward: {
                         item: item.consumable.regirockEgg,
@@ -24617,7 +24617,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Regice Egg!",
                         "¡Has obtenido un Huevo Regice!",
-                    "你获得了a Regice Egg！"
+                    "你获得了雷吉艾斯的蛋！"
                     ],
                     reward: {
                         item: item.consumable.regiceEgg,
@@ -24689,7 +24689,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "You've obtained a Registeel Egg!",
                         "¡Has obtenido un Huevo Registeel!",
-                    "你获得了a Registeel Egg！"
+                    "你获得了雷吉斯奇鲁的蛋！"
                     ],
                     reward: {
                         item: item.consumable.registeelEgg,
@@ -24730,7 +24730,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x3 Super Exp. Candy on the ground!",
                         "¡He encontrado x3 Super Caramelo Exp. en el suelo!",
-                    "我在地上找到了x3 Super Exp. Candy！"
+                    "我在地上找到了x3 超级经验糖果！"
                     ],
                     reward: {
                         item: item.consumable.superExpCandy,
@@ -24766,7 +24766,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Dark Disc on the ground!",
                         "¡He encontrado x1 Disco Siniestro en el suelo!",
-                    "我在地上找到了x1 Dark Disc！"
+                    "我在地上找到了x1 恶之光盘！"
                     ],
                     reward: {
                         item: item.consumable.darkDisc,
@@ -24800,9 +24800,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Shiny Flask inside the vessel!",
+                        "容器里有x1 Shiny Flask！",
                         "¡Hay x1 Frasco Variocolor dentro la vasija!",
-                    "容器里有x1 Shiny Flask！"
+                    "容器里有x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -24854,7 +24854,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I've worked on buildings all across the region, but none like those here in Marble City.",
                         "He trabajado en edificios por toda la región, pero ninguno como los de Ciudad Mármol.",
-                    "I've worked on buildings all across the region, but none like those here in Marble 市."
+                    "我在整个地区都参与过建筑工程，但没有一个像这里大理石市的建筑。"
                     ]
                 },
                 {
@@ -25083,7 +25083,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                 },
                 {
                     text: [
-                        "Here, take this Fighting Disc.",
+                        "来，拿着这个Fighting Disc。",
                         "Toma este Disco Lucha.",
                     "给，拿着这个格斗碟。"
                     ],
@@ -25096,7 +25096,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Teaches your Pokémon a random Fighting-type move.",
                         "Enseña a tu Pokémon un movimiento aleatorio de tipo Lucha.",
-                    "Teaches your 宝可梦 a random 格斗系 move."
+                    "教你的宝可梦一个随机格斗系招式。"
                     ],
                 },
                 {
@@ -25134,7 +25134,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "Tarpatch Town, a ghost town, but handy if you're after Discs.",
                         "Pueblo Alquitrán, un pueblo fantasma, pero útil si buscas Discos.",
-                    "Tarpatch 镇, a ghost town, but handy if you're after Discs."
+                    "Tarpatch镇，一座鬼城，但如果你想要光碟的话很方便。"
                     ]
                 }
             ]
@@ -25280,9 +25280,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 Shiny Flask inside the vessel!",
+                        "容器里有x1 Shiny Flask！",
                         "¡Hay x1 Frasco Variocolor dentro la vasija!",
-                    "容器里有x1 Shiny Flask！"
+                    "容器里有x1 闪光烧瓶！"
                     ],
                     reward: {
                         item: item.consumable.shinyFlask,
@@ -25316,9 +25316,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x2 Rare Candy inside the vessel!",
+                        "容器里有x2 Rare Candy！",
                         "¡Hay x2 Carameloraro dentro de la vasija!",
-                    "容器里有x2 Rare Candy！"
+                    "容器里有x2 神奇糖果！"
                     ],
                     reward: {
                         item: item.consumable.rareCandy,
@@ -25354,7 +25354,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 TM178 Electroweb on the ground!",
                         "¡He encontrado x1 MT178 Electrotela en el suelo!",
-                    "我在地上找到了x1 TM178 Electroweb！"
+                    "我在地上找到了x1 招式机178（电网）！"
                     ],
                     reward: {
                         item: item.tm.tm178,
@@ -25388,9 +25388,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x3 Max Revive inside the vessel!",
+                        "容器里有x3 Max Revive！",
                         "¡Hay x3 Revivir Máximo dentro la vasija!",
-                    "容器里有x3 Max Revive！"
+                    "容器里有x3 活力块！"
                     ],
                     reward: {
                         item: item.consumable.maxRevive,
@@ -25424,9 +25424,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There is x1 TM175 Blaze Kick inside the vessel!",
+                        "容器里有x1 TM175 Blaze Kick！",
                         "¡Hay x1 MT175 Patada ígnea dentro de la vasija!",
-                    "容器里有x1 TM175 Blaze Kick！"
+                    "容器里有x1 招式机175 火焰踢！"
                     ],
                     reward: {
                         item: item.tm.tm175,
@@ -25460,9 +25460,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Normal Disc inside the vessel!",
+                        "容器里有x1 Normal Disc！",
                         "¡Hay x1 Disco Normal dentro la vasija!",
-                    "容器里有x1 Normal Disc！"
+                    "容器里有x1 一般光盘！"
                     ],
                     reward: {
                         item: item.consumable.normalDisc,
@@ -25498,7 +25498,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "There is a Shadow-Catching Urn inside the basket!",
                         "¡Hay una Urna Caza-sombras dentro de la cesta!",
-                    "篮子里有a Shadow-Catching Urn！"
+                    "篮子里有捕影之瓮！"
                     ],
                     reward: {
                         item: item.key.urn,
@@ -25578,7 +25578,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Ho-Oh feather on the ground!",
                         "¡He encontrado x1 Pluma de Ho-Oh en el suelo!",
-                    "我在地上找到了x1 Ho-Oh feather！"
+                    "我在地上找到了x1 凤王羽毛！"
                     ],
                     reward: {
                         item: item.key.feather,
@@ -25614,7 +25614,7 @@ export const getNPCs = (main, savedStates = {}) => ({
                     text: [
                         "I found x1 Piece of Magnemite on the ground!",
                         "¡He encontrado x1 Trozo de Magnemite en el suelo!",
-                    "我在地上找到了x1 Piece of Magnemite！"
+                    "我在地上找到了x1 小磁怪的零件！"
                     ],
                     reward: {
                         item: item.key.magnemitePiece,
@@ -25648,9 +25648,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 Developer Letter inside the vessel!",
+                        "容器里有x1 Developer Letter！",
                         "¡Hay x1 Carta del desarollador la vasija!",
-                    "容器里有x1 Developer Letter！"
+                    "容器里有x1 开发者信件！"
                     ],
                     reward: {
                         item: item.key.letterKhydra,
@@ -25677,9 +25677,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM152 Galvanic Quack inside the vessel!",
+                        "容器里有x1 TM152 Galvanic Quack！",
                         "¡Hay x1 MT152  Graznido galvánico la vasija!",
-                    "容器里有x1 TM152 Galvanic Quack！"
+                    "容器里有x1 招式机152 电击呱！"
                     ],
                     reward: {
                         item: item.tm.tm152,
@@ -25713,9 +25713,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM153 Metalic Slash inside the vessel!",
+                        "容器里有x1 TM153 Metalic Slash！",
                         "¡Hay x1 MT153 Corte metálico la vasija!",
-                    "容器里有x1 TM153 Metalic Slash！"
+                    "容器里有x1 招式机153 金属斩！"
                     ],
                     reward: {
                         item: item.tm.tm153,
@@ -25749,9 +25749,9 @@ export const getNPCs = (main, savedStates = {}) => ({
             [
                 {
                     text: [
-                        "There are x1 TM60 Sacred Fire inside the vessel!",
+                        "容器里有x1 TM60 Sacred Fire！",
                         "¡Hay x1 MT160 Fuego sagrado la vasija!",
-                    "容器里有x1 TM60 Sacred Fire！"
+                    "容器里有x1 招式机60 神圣之火！"
                     ],
                     reward: {
                         item: item.tm.tm160,
