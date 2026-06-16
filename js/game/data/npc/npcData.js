@@ -2610,7 +2610,7 @@ export const getNPCs = (main, savedStates = {}) => ({
         ]
     },
     rivalMom: {
-        name: [`${main.rival[0].name}'s mother`, `Madre de ${main.rival[0].name}`, `${main.rival[0].name}'s mother`],
+        name: [`${main.rival[0].name}'s mother`, `Madre de ${main.rival[0].name}`, `${main.rival[0].name}的妈妈`],
         state: savedStates.rivalMom ?? 0,
         dialogues: [
             [

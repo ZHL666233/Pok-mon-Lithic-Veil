@@ -650,7 +650,7 @@ export class Route extends Window {
                 this.playerAttack();
             }
 
-            if (this.battle.enemyCharge >= this.battle.chargeMax) {
+            if (this.battle.enemyCharge >= this.battle.chargeMax && this.battle.loop !== null) {
                 this.battle.enemyCharge = 0;
                 this.enemyAttack();
             }

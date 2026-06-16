@@ -448,7 +448,7 @@ export class TrainerBattle extends Window {
                 this.playerAttack();
             }
 
-            if (this.battle.enemyCharge >= this.battle.chargeMax) {
+            if (this.battle.enemyCharge >= this.battle.chargeMax && this.battle.loop !== null) {
                 this.battle.enemyCharge = 0;
                 this.enemyAttack();
             }
@@ -900,7 +900,7 @@ export class TrainerBattle extends Window {
         playSound('purchase', 'ui')
         const goldPopup = document.createElement('div');
         goldPopup.className = 'stroke';
-        goldPopup.innerText = `+${amount}${text.route.goldUnit[this.component.main.lang]}`;
+        goldPopup.innerText = `+${amount}${text.route.goldUnit[this.main.lang]}`;
 
         goldPopup.style.position = 'absolute';
         goldPopup.style.left = '40%';

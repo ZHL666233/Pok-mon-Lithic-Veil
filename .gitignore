@@ -31,3 +31,28 @@ fix_*.js
 
 # Reasonix
 .reasonix/
+
+# Android / APK builds
+android/
+apk-project/
+
+# PWA / Capacitor
+www/
+capacitor.config.json
+manifest.json
+service-worker.js
+package.json
+package-lock.json
+
+# Go server (not needed for GitHub Pages)
+go.mod
+main.go
+
+# Launcher scripts
+启动游戏.bat
+启动游戏.ps1
+deploy.ps1
+build_apk.bat
+
+# Compiled binaries
+*.exe

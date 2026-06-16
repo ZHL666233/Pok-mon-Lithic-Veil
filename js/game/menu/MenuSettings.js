@@ -168,19 +168,22 @@ export class MenuSettings extends MenuComponent {
 			const input = document.createElement('input');
 			input.type = 'file';
 			input.accept = '.json';
+			input.style.display = 'none';
+			document.body.appendChild(input);
 			input.onchange = (e) => {
 				const file = e.target.files[0];
-				if (!file) return;
+				if (!file) { document.body.removeChild(input); return; }
 				const reader = new FileReader();
 				reader.onload = (ev) => {
 					try {
 						const data = JSON.parse(ev.target.result);
-						if (!data.config || !data.player) throw new Error('Invalid save');
+						if (!data.config || !data.save) throw new Error('Invalid save');
 						window.localStorage.setItem('data', JSON.stringify(data));
 						location.reload();
 					} catch (err) {
 						playSound('close', 'ui');
 					}
+					document.body.removeChild(input);
 				};
 				reader.readAsText(file);
 			};

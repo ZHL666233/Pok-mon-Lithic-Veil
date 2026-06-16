@@ -468,7 +468,7 @@ export class StaticPokemon extends Window {
                 this.playerAttack();
             }
 
-            if (this.battle.enemyCharge >= this.battle.chargeMax) {
+            if (this.battle.enemyCharge >= this.battle.chargeMax && this.battle.loop !== null) {
                 this.battle.enemyCharge = 0;
                 this.enemyAttack();
             }
@@ -920,7 +920,7 @@ export class StaticPokemon extends Window {
         playSound('purchase', 'ui')
         const goldPopup = document.createElement('div');
         goldPopup.className = 'stroke';
-        goldPopup.innerText = `+${amount}${text.route.goldUnit[this.component.main.lang]}`;
+        goldPopup.innerText = `+${amount}${text.route.goldUnit[this.main.lang]}`;
 
         goldPopup.style.position = 'absolute';
         goldPopup.style.left = '40%';
@@ -1054,17 +1054,19 @@ class StaticWin extends Popup {
 
     update() {
         const lang = this.component.main.lang;
+        const pokeData = pokemon[this.component.data.pokemon];
+        const pokeName = pokeData ? pokeData.name[lang].toUpperCase() : this.component.data.pokemon.toUpperCase();
 
         const promptText = [
-            `${this.component.data.pokemon.toUpperCase()} defeated!`,
-            `¡${this.component.data.pokemon.toUpperCase()} derrotado!`,
-            `${this.component.data.pokemon.toUpperCase()} 被击败了！`
+            `${pokeName} defeated!`,
+            `¡${pokeName} derrotado!`,
+            `${pokeName} 被击败了！`
         ];
 
         const promptBottomText = [
-            `A ${this.component.data.pokemon.toUpperCase()} egg lies on the ground.`, 
-            `Un huevo de ${this.component.data.pokemon.toUpperCase()} reposa en el suelo.`,
-            `地上有一个${this.component.data.pokemon.toUpperCase()}的蛋。`
+            `A ${pokeName} egg lies on the ground.`, 
+            `Un huevo de ${pokeName} reposa en el suelo.`,
+            `地上有一个${pokeName}的蛋。`
         ]
 
         this.promp.innerText = promptText[lang];
